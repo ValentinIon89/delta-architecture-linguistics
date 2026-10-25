@@ -1,32 +1,34 @@
-markdown
-# Arhitectura Operatorială Δ a Transformării Gramaticale
+# Arhitectura operatorială Δ a transformării gramaticale
 
-Acest repository conține implementarea oficială în Python a cadrului teoretico-matematic descris în articolul științific **"The Δ Architecture of Grammatical Transformation"** (2026) scris de Ion Valentin Ciocioc.
+Acest material conține un prototip demonstrativ în Python, cu exemple inspirate de articolul „The Δ Architecture of Grammatical Transformation” (Ion Valentin Ciocioc, 2026) și de anexele A și B.
 
-## 📌 Despre Proiect
-Sistemul transpune în cod software un operator abstract unic ($\Delta$) capabil să clasifice și să execute transformări lingvistice prin 8 regimuri distincte, asigurând stabilitatea nucleului relațional $R_0$. 
+## Scop și limite
 
-Este un cadru descriptiv-comparativ conceput pentru a modela structuri formale trans-lingvistice (aplicate pe limba română, engleză și greacă modernă).
+Scriptul redă manual exemple prestabilite pentru cele opt regimuri Δ. Este un material didactic, nu o implementare oficială a cadrului și nu un clasificator automat al datelor lingvistice.
 
-## 🗂️ Structura și Regimurile Implementate
-Codul din `delta_architecture.py` rulează următorii operatori structurali descriși în lucrare:
-1. **Regimul Direcțional** $\Delta(\rightarrow)$ — Exemplu: *zi $\rightarrow$ zile*
-2. **Regimul Aditiv** $\Delta(+)$ — Exemplu: *merg $\rightarrow$ mergeam*
-3. **Redistribuirea Semantică Direcțională** $\Delta(\succ\prec)$ — Exemplu: *trust $\rightarrow$ distrust*
-4. **Regimul Substituțional** $\Delta(-/+)$ — Exemplu: *casă $\rightarrow$ case*
-5. **Cuplarea Relațională** $\Delta(\succ/\prec)$ — Exemplu: *ο άντρας* (articol / substantiv)
-6. **Regimul Reductiv** $\Delta(-)$ — Exemplu: *αγελάδα $\rightarrow$ γελάδα*
-7. **Reorganizarea Pozițională** $\Delta(\sim)$ — Permutări de inventar structural (*la $\rightarrow$ al*)
-8. **Flexibilitatea Paradigmatică Cumulativă** $\Delta(\pm)$ — Matricea completă a flexiunii verbale
+În reprezentarea din program, R₀ este păstrat ca identificator relațional abstract, separat de baza de suprafață folosită pentru afișarea formelor. Segmentarea, poziția componentelor și efectul semantic sunt furnizate explicit în exemple; programul nu le deduce din forme și nu implementează diagnosticul complet pentru păstrarea sau înlocuirea lui R₀.
 
-## 🚀 Ghid de Rulare Rapidă
-Pentru a testa manual matricea de transformare direct în terminalul tău:
+Δ(→) redă corespondența orientată dintre configurații, fără să clasifice intervenția asupra materialului intern. Δ(><) este ilustrat prin *trust → distrust* și *urs → ursoaică*; efectul semantic sau gramatical este indicat manual, nu calculat. Integrarea formală a materialului poate fi descrisă separat prin Δ(+). Δ(±) clasifică domeniul paradigmatic ca întreg; relațiile locale dintre forme sunt afișate separat ca Δ(−/+) atunci când reprezintă înlocuirea materialului în aceeași poziție.
 
-1. Instalați dependența cromatică:
-   ```bash
-   pip install colorama
-   ```
-2. Rulați executabilul Python:
-   ```bash
-   python delta_architecture.py
-   ```
+Pentru Δ(~), *la ~ al* este numai o ilustrație construită a permutării, iar *ask ~ aks* este exemplul englezesc atestat menționat în articol și în Appendix A. Afișarea permutării nu validează continuitatea empirică a lui R₀.
+
+Rezultatele sunt reprezentări ilustrative ale exemplelor codificate. Ele nu validează empiric cadrul și nu înlocuiesc procedura analitică din articol și anexe.
+
+## Regimurile ilustrate
+
+1. **Δ(→), corespondență direcțională** — *zi → zile*.
+2. **Δ(+), integrare** — *merg → mergeam*.
+3. **Δ(><), reorientare semantică sau gramaticală** — *trust → distrust* și *urs → ursoaică*.
+4. **Δ(−/+), înlocuire corelată** — *casă → case*.
+5. **Δ(>/<), cuplare relațională** — *ο άντρας*.
+6. **Δ(−), eliminare** — *αγελάδα → γελάδα*.
+7. **Δ(~), reorganizare pozițională** — permutarea construită *la ~ al* și alternanța atestată *ask ~ aks*.
+8. **Δ(±), organizare paradigmatică cumulativă** — paradigma greacă *γράφω, γράφεις, γράφει, γράφουμε, γράφετε, γράφουν*.
+
+## Rulare
+
+Este suficient Python 3. Culorile din terminal sunt opționale și folosesc `colorama` dacă pachetul este instalat.
+
+```bash
+python delta_architecture.py
+```
