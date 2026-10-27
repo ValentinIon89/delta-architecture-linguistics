@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=77.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "delta-architecture-linguistics"
+version = "0.1.0"
+description = "Didactic Python demonstrations of the eight regimes of the Delta architecture of grammatical transformation."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [
+    { name = "Ion Valentin Ciocioc" }
+]
+keywords = [
+    "linguistics",
+    "morphology",
+    "grammatical transformation",
+    "formal representation",
+    "delta architecture"
+]
+
+[project.optional-dependencies]
+colors = ["colorama>=0.4.6"]
+
+[project.urls]
+Repository = "https://github.com/ValentinIon89/delta-architecture-linguistics"
+
+[tool.setuptools]
+py-modules = ["delta_architecture"]
