@@ -9,90 +9,54 @@
 
 <style>
 :root {
-  --navy: #10243a;
-  --navy-dark: #081b2e;
-  --gold: #d6aa65;
-  --cream: #f4eadb;
-  --ink: #182a3c;
+  --navy: #10283f;
+  --navy-dark: #0b2034;
+  --gold: #c79a53;
+  --cream: #f5ebdc;
+  --ink: #122940;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
   background: var(--navy-dark);
   color: white;
+  font-family: Georgia, "Times New Roman", serif;
 }
 
-a { color: inherit; }
-
-.container {
-  width: min(1320px, calc(100% - 64px));
-  margin: auto;
+a {
+  color: inherit;
 }
 
-/* NAVIGATION */
-
-nav {
-  background: rgba(9, 29, 47, .96);
-  border-bottom: 1px solid rgba(224,190,131,.3);
-  position: relative;
-  z-index: 5;
-}
-
-.nav-content {
-  min-height: 76px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-}
-
-.logo {
-  color: #e8c78d;
-  font-size: 25px;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 22px;
-}
-
-.menu a {
-  text-decoration: none;
-  font-size: 15px;
-  color: #f1e9dd;
-}
-
-.menu a:hover { color: var(--gold); }
-
-/* BACKGROUND AND HERO */
-
-.visual-stage {
+.page {
   position: relative;
   isolation: isolate;
-  min-height: 1040px;
-  padding-bottom: 40px;
+  overflow: hidden;
+  min-height: 1450px;
+  background-color: #1c3040;
 }
 
-.visual-stage::before {
+/* THE ORIGINAL ANCIENT ARTWORK */
+
+.page::before {
   content: "";
   position: absolute;
   inset: 0;
   z-index: -2;
   background-image: url("delta-background.webp");
-  background-position: center top;
-  background-size: 100% auto;
   background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 }
 
-.visual-stage::after {
+.page::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -101,150 +65,217 @@ nav {
   background:
     linear-gradient(
       180deg,
-      rgba(5,20,35,.10) 0%,
-      rgba(5,20,35,.04) 35%,
-      rgba(5,20,35,.12) 65%,
-      rgba(5,20,35,.72) 100%
+      rgba(8,22,37,.06) 0%,
+      rgba(8,22,37,.02) 40%,
+      rgba(8,22,37,.10) 75%,
+      rgba(8,22,37,.24) 100%
     );
 }
 
-.hero {
-  min-height: 530px;
-  padding-top: 75px;
+.container {
+  width: min(1130px, calc(100% - 48px));
+  margin-inline: auto;
 }
 
-.hero-text {
-  max-width: 740px;
-  text-shadow: 0 3px 18px rgba(0,0,0,.75);
+/* TOP NAVIGATION */
+
+.navbar {
+  background: rgba(12,30,48,.89);
+  border-bottom: 1px solid rgba(218,177,112,.28);
+}
+
+.nav-inner {
+  min-height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.brand {
+  font-size: 23px;
+  color: #eac58b;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.nav-links a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff7ea;
+}
+
+.nav-links a:hover {
+  color: #eac58b;
+}
+
+/* TITLE AREA */
+
+.hero {
+  padding-top: 86px;
+  min-height: 585px;
+}
+
+.hero-content {
+  margin-left: 24px;
+  max-width: 690px;
+  text-shadow: 0 2px 15px rgba(0,0,0,.75);
 }
 
 .hero h1 {
-  font-size: clamp(44px, 5vw, 70px);
-  line-height: 1.08;
+  font-size: clamp(44px, 5vw, 66px);
   font-weight: normal;
-  margin: 0 0 18px;
+  line-height: 1.06;
   letter-spacing: -.8px;
+  margin: 0 0 24px;
 }
 
 .hero h1 span {
   display: block;
   font-size: .62em;
-  line-height: 1.2;
   margin-top: 8px;
+  line-height: 1.2;
 }
 
 .author {
-  font-size: 27px;
-  margin: 0 0 6px;
+  font-size: 26px;
+  margin: 0 0 4px;
 }
 
 .affiliation {
-  font-size: 17px;
-  margin: 0 0 26px;
+  font-size: 16px;
+  margin: 0 0 24px;
 }
 
-.buttons {
+.button-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 11px;
+  gap: 12px;
 }
 
 .button {
   display: inline-block;
-  padding: 12px 21px;
+  padding: 11px 19px;
   border-radius: 5px;
-  text-decoration: none;
-  background: #16344f;
-  border: 1px solid rgba(255,255,255,.25);
+  background: #12314e;
   color: white;
-  font-size: 15px;
+  text-decoration: none;
+  font-size: 14px;
   font-weight: bold;
+  border: 1px solid rgba(255,255,255,.23);
   text-shadow: none;
 }
 
-.button:hover { filter: brightness(1.12); }
+.button:hover {
+  filter: brightness(1.14);
+}
 
 .button.gold {
-  background: #d6b17a;
-  color: #15273a;
-  border-color: #e6c99a;
+  background: #d4ad72;
+  color: #14283c;
 }
 
 .button.light {
-  background: #f0e4d4;
-  color: #15273a;
+  background: #f0e3d2;
+  color: #14283c;
 }
 
-.profiles {
-  margin-top: 19px;
+.profile-links {
   display: flex;
-  gap: 14px;
+  gap: 13px;
   flex-wrap: wrap;
+  margin-top: 19px;
   font-size: 15px;
 }
 
-.profiles a { text-decoration: none; }
-.profiles a:hover { color: #e8c78d; }
+.profile-links a {
+  text-decoration: none;
+}
 
-/* ACADEMIC PANELS */
+/* CREAM PANELS */
 
 .panel {
-  background: rgba(247,239,226,.94);
+  background: rgba(248,239,226,.93);
   color: var(--ink);
-  border: 1px solid rgba(255,255,255,.7);
-  border-radius: 8px;
-  padding: 25px 27px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.25);
-  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,.65);
+  border-radius: 7px;
+  padding: 22px 23px;
+  box-shadow: 0 7px 22px rgba(0,0,0,.17);
+  backdrop-filter: blur(4px);
 }
 
 .panel h2 {
-  font-size: 29px;
+  font-size: 27px;
   font-weight: normal;
-  margin: 0 0 15px;
-}
-
-.panel h3 {
-  margin: 0 0 6px;
-  font-size: 17px;
-}
-
-.panel p {
-  font-size: 15px;
-  line-height: 1.55;
   margin: 0 0 13px;
 }
 
-.panel a:not(.button) { color: #16476a; }
-
-/* ABSTRACT POSITIONED ON THE RIGHT */
-
-.abstract-position {
-  width: 69%;
-  margin-left: auto;
-  margin-bottom: 16px;
+.panel h3 {
+  font-size: 16px;
+  margin: 0 0 7px;
 }
 
-.abstract-content {
+.panel p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 12px;
+}
+
+.panel a:not(.button) {
+  color: #164c7c;
+}
+
+/* ABSTRACT — ON THE RIGHT */
+
+.abstract-panel {
+  width: 69%;
+  margin-left: auto;
+  margin-bottom: 14px;
+  min-height: 232px;
+}
+
+.abstract-layout {
   display: grid;
-  grid-template-columns: 1fr 190px;
+  grid-template-columns: minmax(0,1fr) 175px;
   align-items: center;
-  gap: 20px;
+  gap: 25px;
 }
 
 .abstract-text {
-  border-left: 4px solid #c6a16b;
-  padding-left: 17px;
+  border-left: 4px solid #c3954d;
+  padding-left: 15px;
+  margin-bottom: 13px;
 }
 
 .delta-diagram {
   text-align: center;
-  color: #15324c;
+  color: #123451;
+  position: relative;
 }
 
-.delta-diagram .symbol {
-  font-size: 116px;
-  line-height: 1;
+.delta-diagram::before {
+  content: "";
+  position: absolute;
+  width: 145px;
+  height: 145px;
+  border: 1px solid rgba(22,49,73,.13);
+  border-radius: 50%;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.delta-symbol {
+  font-size: 112px;
+  line-height: 1.2;
+  position: relative;
 }
 
 .diagram-labels {
@@ -253,185 +284,230 @@ nav {
   font-size: 12px;
 }
 
-/* LOWER GRID */
+/* THE FOUR LOWER PANELS */
 
-.academic-grid {
+.panels-grid {
+  width: 86%;
+  margin-left: auto;
   display: grid;
-  grid-template-columns: 1.1fr 1fr;
-  gap: 16px;
+  grid-template-columns: 1.08fr 1fr;
+  gap: 13px;
+  align-items: stretch;
 }
 
-.regimes {
+.panels-grid > section {
+  min-width: 0;
+}
+
+.regime-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 9px;
-  margin: 18px 0;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  gap: 8px;
+  margin: 16px 0;
 }
 
 .regime {
-  background: rgba(255,255,255,.58);
-  border: 1px solid #d6c7b2;
-  border-radius: 5px;
-  padding: 13px 5px;
+  min-height: 82px;
+  padding: 10px 4px;
   text-align: center;
-  min-height: 90px;
+  background: rgba(255,255,255,.55);
+  border: 1px solid rgba(208,190,165,.5);
+  border-radius: 5px;
 }
 
 .regime strong {
   display: block;
-  font-size: 21px;
+  font-size: 20px;
   font-weight: normal;
-  margin-bottom: 8px;
+  margin-bottom: 7px;
 }
 
 .regime span {
-  font-size: 12px;
+  display: block;
+  font-size: 11px;
   line-height: 1.3;
 }
 
 .publication {
   display: flex;
-  gap: 15px;
-  padding: 12px 0;
-  border-bottom: 1px solid #d6c7b2;
+  gap: 14px;
+  padding: 10px 0 13px;
+  border-bottom: 1px solid #d5c7b5;
 }
 
-.book-icon {
+.book-cover {
   width: 56px;
   min-width: 56px;
-  height: 72px;
-  background: #19334e;
-  color: #e9c98e;
+  height: 75px;
+  background: linear-gradient(140deg,#203f61,#0d1d33);
+  color: #d8b37d;
+  border-radius: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 30px;
-  border-radius: 4px;
 }
 
-.publication p { font-size: 13px; }
+.publication p {
+  font-size: 12px;
+}
+
+.publication a {
+  font-size: 13px;
+}
 
 .resources {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  gap: 12px 20px;
+  margin: 15px 0;
 }
 
 .resources a {
   display: block;
   text-decoration: none;
-  padding: 10px 0;
-  border-bottom: 1px solid #d6c7b2;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d6c8b6;
 }
 
 .resources strong {
   display: block;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .resources small {
   display: block;
-  color: #52606c;
-  margin-top: 5px;
+  font-size: 12px;
+  color: #53616d;
+  margin-top: 4px;
 }
 
-.extra-section {
-  padding: 22px 0 35px;
+.panel-action {
+  margin-top: 15px;
 }
 
-.extra-section .panel {
-  margin-bottom: 16px;
-}
+/* FOOTER */
 
 footer {
-  padding: 25px 0;
-  background: #091d30;
-  color: #e8dfd1;
-  font-size: 13px;
-  text-align: center;
+  background: rgba(10,29,47,.95);
+  color: #f2e7d9;
+  padding: 18px 0;
+  font-size: 12px;
 }
 
-section[id] { scroll-margin-top: 30px; }
-
-/* RESPONSIVE DESIGN */
-
-@media (max-width: 1000px) {
-  .visual-stage::before {
-    background-size: auto 1050px;
-    background-position: center top;
-  }
-
-  .abstract-position { width: 85%; }
-  .hero { min-height: 510px; }
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
-@media (max-width: 760px) {
-  .container {
-    width: calc(100% - 28px);
-  }
+footer a {
+  text-decoration: none;
+}
 
-  .nav-content {
+section[id] {
+  scroll-margin-top: 20px;
+}
+
+/* TABLETS */
+
+@media (max-width: 950px) {
+  .nav-inner {
     flex-direction: column;
     align-items: flex-start;
-    padding: 15px 0;
+    padding: 14px 0;
   }
 
-  .menu { gap: 12px; }
+  .hero {
+    min-height: 525px;
+  }
+
+  .abstract-panel {
+    width: 85%;
+  }
+
+  .panels-grid {
+    width: 95%;
+  }
+
+  .regime-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+/* PHONES */
+
+@media (max-width: 680px) {
+  .container {
+    width: calc(100% - 26px);
+  }
+
+  .page::before {
+    background-position: 42% top;
+  }
+
+  .nav-links {
+    gap: 12px;
+  }
 
   .hero {
     min-height: 480px;
     padding-top: 55px;
   }
 
-  .hero h1 { font-size: 42px; }
-
-  .visual-stage::before {
-    background-size: auto 1000px;
-    background-position: 39% top;
+  .hero-content {
+    margin-left: 0;
   }
 
-  .visual-stage::after {
-    background: linear-gradient(
-      180deg,
-      rgba(7,22,37,.30),
-      rgba(7,22,37,.18) 45%,
-      rgba(7,22,37,.8)
-    );
+  .hero h1 {
+    font-size: 39px;
   }
 
-  .abstract-position { width: 100%; }
+  .author {
+    font-size: 22px;
+  }
 
-  .abstract-content {
+  .abstract-panel {
+    width: 100%;
+  }
+
+  .abstract-layout {
     grid-template-columns: 1fr;
   }
 
-  .delta-diagram { display: none; }
+  .delta-diagram {
+    display: none;
+  }
 
-  .academic-grid {
+  .panels-grid {
+    width: 100%;
     grid-template-columns: 1fr;
   }
 
-  .regimes {
-    grid-template-columns: repeat(2, 1fr);
+  .panel {
+    padding: 19px;
   }
 
-  .panel { padding: 21px 18px; }
-}
-
-@media (max-width: 440px) {
-  .hero h1 { font-size: 36px; }
-  .author { font-size: 22px; }
-  .resources { grid-template-columns: 1fr; }
+  .resources {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 </head>
 
 <body>
 
-<nav>
-  <div class="container nav-content">
-    <a class="logo" href="#home">△ The Δ Architecture</a>
-    <div class="menu">
+<div class="page">
+
+<nav class="navbar">
+  <div class="container nav-inner">
+
+    <a class="brand" href="#home">
+      △ The Δ Architecture
+    </a>
+
+    <div class="nav-links">
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#theory">Theory</a>
@@ -440,303 +516,305 @@ section[id] { scroll-margin-top: 30px; }
       <a href="#software">Software</a>
       <a href="#contact">Contact</a>
     </div>
+
   </div>
 </nav>
 
-<div class="visual-stage">
+<header class="hero container" id="home">
+  <div class="hero-content">
 
-  <header class="hero container" id="home">
-    <div class="hero-text">
+    <h1>
+      The Δ Architecture
+      <span>of Grammatical Transformation</span>
+    </h1>
 
-      <h1>
-        The Δ Architecture
-        <span>of Grammatical Transformation</span>
-      </h1>
+    <p class="author">Ion Valentin Ciocioc</p>
 
-      <p class="author">Ion Valentin Ciocioc</p>
-      <p class="affiliation">
-        Independent Researcher | Athens, Greece
-      </p>
+    <p class="affiliation">
+      Independent Researcher | Athens, Greece
+    </p>
 
-      <div class="buttons">
-        <a class="button gold" href="#publications">
-          Read the Article
-        </a>
-        <a class="button" href="#publications">
-          View Appendix
-        </a>
-        <a class="button light"
-           href="https://github.com/ValentinIon89/delta-architecture-linguistics"
-           target="_blank" rel="noopener noreferrer">
-          GitHub ↗
-        </a>
-      </div>
+    <div class="button-row">
+      <a class="button gold" href="#publications">
+        Read the Article
+      </a>
 
-      <div class="profiles">
-        <a href="https://orcid.org/0009-0002-5711-5856"
-           target="_blank" rel="noopener noreferrer">◉ ORCID</a>
-        <span>│</span>
-        <a href="https://pypi.org/user/Ciocioc/"
-           target="_blank" rel="noopener noreferrer">PyPI</a>
-        <span>│</span>
-        <a href="#contact">Contact</a>
-      </div>
+      <a class="button" href="#publications">
+        View Appendix
+      </a>
 
-    </div>
-  </header>
-
-  <main class="container">
-
-    <section class="panel abstract-position" id="about">
-      <div class="abstract-content">
-
-        <div>
-          <h2>Abstract</h2>
-
-          <div class="abstract-text">
-            <p>
-              This research proposes the Δ operator as a
-              unified formal framework for describing
-              grammatical transformations.
-            </p>
-
-            <p>
-              It distinguishes macrostructural
-              correspondences from microstructural
-              organization and classifies transformation
-              patterns into eight operatorial regimes.
-            </p>
-          </div>
-
-          <a class="button gold" href="#theory">
-            Learn More →
-          </a>
-        </div>
-
-        <div class="delta-diagram">
-          <div>Form</div>
-          <div class="symbol">Δ</div>
-          <div class="diagram-labels">
-            <span>Structure</span>
-            <span>Function</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <div class="academic-grid">
-
-      <section class="panel" id="regimes">
-        <h2>The Eight Operatorial Regimes</h2>
-
-        <p>
-          A formal classification of grammatical
-          transformations.
-        </p>
-
-        <div class="regimes">
-          <div class="regime">
-            <strong>Δ(→)</strong>
-            <span>Directional</span>
-          </div>
-
-          <div class="regime">
-            <strong>Δ(+)</strong>
-            <span>Additive</span>
-          </div>
-
-          <div class="regime">
-            <strong>Δ(&gt;&lt;)</strong>
-            <span>Reorientational</span>
-          </div>
-
-          <div class="regime">
-            <strong>Δ(−/+)</strong>
-            <span>Substitutional</span>
-          </div>
-
-          <div class="regime">
-            <strong>Δ(&gt;/&lt;)</strong>
-            <span>Coupling</span>
-          </div>
-
-          <div class="regime">
-            <strong>Δ(−)</strong>
-            <span>Reductive</span>
-          </div>
-
-          <div class="regime">
-            <strong>Δ(~)</strong>
-            <span>Positional Reorganization</span>
-          </div>
-
-          <div class="regime">
-            <strong>Δ(±)</strong>
-            <span>Paradigmatic Flexibility</span>
-          </div>
-        </div>
-
-        <a class="button" href="#theory">
-          Explore the Framework →
-        </a>
-      </section>
-
-      <section class="panel" id="publications">
-        <h2>Research Publications</h2>
-
-        <div class="publication">
-          <div class="book-icon">Δ</div>
-          <div>
-            <h3>
-              The Δ Architecture of
-              Grammatical Transformation
-            </h3>
-            <p>
-              Research article · Publication link
-              to be added when available
-            </p>
-            <a href="#theory">Research Overview</a>
-          </div>
-        </div>
-
-        <div class="publication">
-          <div class="book-icon">Μ</div>
-          <div>
-            <h3>The Metamorphosis Formula</h3>
-            <p>
-              Open Journal of Modern Linguistics · 2025
-            </p>
-            <a href="https://www.scirp.org/journal/paperinformation?paperid=141893"
-               target="_blank" rel="noopener noreferrer">
-              Read the Published Article ↗
-            </a>
-          </div>
-        </div>
-
-        <p style="margin-top:17px;">
-          <a class="button"
-             href="https://orcid.org/0009-0002-5711-5856"
-             target="_blank" rel="noopener noreferrer">
-            Researcher Profile →
-          </a>
-        </p>
-      </section>
-
-      <section class="panel" id="software">
-        <h2>Software &amp; Resources</h2>
-
-        <p>
-          Python implementation and documentation
-          for the Δ architecture.
-        </p>
-
-        <div class="resources">
-          <a href="https://github.com/ValentinIon89/delta-architecture-linguistics"
-             target="_blank" rel="noopener noreferrer">
-            <strong>GitHub Repository ↗</strong>
-            <small>Source code and documentation</small>
-          </a>
-
-          <a href="https://pypi.org/user/Ciocioc/"
-             target="_blank" rel="noopener noreferrer">
-            <strong>PyPI Profile ↗</strong>
-            <small>Python packages</small>
-          </a>
-
-          <a href="https://github.com/ValentinIon89/delta-architecture-linguistics/blob/main/README.md"
-             target="_blank" rel="noopener noreferrer">
-            <strong>Documentation ↗</strong>
-            <small>README and usage information</small>
-          </a>
-
-          <a href="https://github.com/ValentinIon89/delta-architecture-linguistics/blob/main/delta_architecture.py"
-             target="_blank" rel="noopener noreferrer">
-            <strong>Python Source ↗</strong>
-            <small>Implementation file</small>
-          </a>
-        </div>
-
-        <p style="margin-top:15px;">
-          <a class="button"
-             href="https://github.com/ValentinIon89/delta-architecture-linguistics"
-             target="_blank" rel="noopener noreferrer">
-            View on GitHub →
-          </a>
-        </p>
-      </section>
-
-      <section class="panel" id="theory">
-        <h2>About the Research</h2>
-
-        <p>
-          The Δ architecture explores a unified
-          operatorial notation for grammatical
-          transformation across different
-          linguistic configurations.
-        </p>
-
-        <p>
-          Its macrostructural level represents
-          relations between configurations,
-          while its microstructural level
-          describes their internal organization
-          and transformation.
-        </p>
-
-        <p>
-          The framework distinguishes eight
-          operatorial regimes and provides
-          formal representations, diagnostic
-          procedures, and illustrative analyses.
-        </p>
-
-        <a class="button gold" href="#about">
-          Return to Overview →
-        </a>
-      </section>
-
+      <a class="button light"
+         href="https://github.com/ValentinIon89/delta-architecture-linguistics"
+         target="_blank" rel="noopener noreferrer">
+        GitHub ↗
+      </a>
     </div>
 
-  </main>
+    <div class="profile-links">
+      <a href="https://orcid.org/0009-0002-5711-5856"
+         target="_blank" rel="noopener noreferrer">
+        ◉ ORCID
+      </a>
+      <span>│</span>
+      <a href="https://pypi.org/user/Ciocioc/"
+         target="_blank" rel="noopener noreferrer">
+        PyPI
+      </a>
+      <span>│</span>
+      <a href="#contact">Contact</a>
+    </div>
 
-</div>
+  </div>
+</header>
 
-<div class="extra-section">
-  <div class="container">
-    <section class="panel" id="contact">
-      <h2>Researcher &amp; Contact</h2>
+<main class="container">
+
+<section class="panel abstract-panel" id="about">
+  <div class="abstract-layout">
+
+    <div>
+      <h2>Abstract</h2>
+
+      <div class="abstract-text">
+        <p>
+          This work proposes the Δ operator as a unified
+          formal model for grammatical transformation.
+          It offers a macro–micro architecture,
+          eight operatorial regimes, and a
+          cross-linguistic analytical framework.
+        </p>
+
+        <p>
+          The approach supports research in linguistic
+          theory, computational modelling, and
+          language education.
+        </p>
+      </div>
+
+      <a class="button gold" href="#theory">
+        Learn More →
+      </a>
+    </div>
+
+    <div class="delta-diagram">
+      <div>Form</div>
+      <div class="delta-symbol">Δ</div>
+      <div class="diagram-labels">
+        <span>Structure</span>
+        <span>Function</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="panels-grid">
+
+<section class="panel" id="regimes">
+  <h2>The Eight Operatorial Regimes</h2>
+
+  <p>
+    A unified classification of grammatical transformations.
+  </p>
+
+  <div class="regime-grid">
+
+    <div class="regime">
+      <strong>Δ(→)</strong>
+      <span>Directional Regime</span>
+    </div>
+
+    <div class="regime">
+      <strong>Δ(+)</strong>
+      <span>Additive Regime</span>
+    </div>
+
+    <div class="regime">
+      <strong>Δ(&gt;&lt;)</strong>
+      <span>Directional Coupling</span>
+    </div>
+
+    <div class="regime">
+      <strong>Δ(−/+)</strong>
+      <span>Substitutional Regime</span>
+    </div>
+
+    <div class="regime">
+      <strong>Δ(&gt;/&lt;)</strong>
+      <span>Bidirectional Coupling</span>
+    </div>
+
+    <div class="regime">
+      <strong>Δ(−)</strong>
+      <span>Reductive Regime</span>
+    </div>
+
+    <div class="regime">
+      <strong>Δ(~)</strong>
+      <span>Positional Reorganization</span>
+    </div>
+
+    <div class="regime">
+      <strong>Δ(±)</strong>
+      <span>Cumulative Flexibility</span>
+    </div>
+
+  </div>
+
+  <a class="button" href="#theory">
+    Explore the Regimes →
+  </a>
+</section>
+
+<section class="panel" id="publications">
+  <h2>Research Publications</h2>
+
+  <div class="publication">
+    <div class="book-cover">Δ</div>
+
+    <div>
+      <h3>
+        The Δ Architecture of
+        Grammatical Transformation
+      </h3>
 
       <p>
-        <strong>Ion Valentin Ciocioc</strong><br>
-        Independent Researcher<br>
-        Athens, Greece
+        Open Journal of Modern Linguistics · 2026
       </p>
 
-      <div class="buttons">
-        <a class="button"
-           href="https://orcid.org/0009-0002-5711-5856"
-           target="_blank" rel="noopener noreferrer">
-          ORCID ↗
-        </a>
-
-        <a class="button"
-           href="https://github.com/ValentinIon89/delta-architecture-linguistics"
-           target="_blank" rel="noopener noreferrer">
-          GitHub ↗
-        </a>
-      </div>
-    </section>
+      <a href="#theory">Research Overview</a>
+    </div>
   </div>
+
+  <div class="publication">
+    <div class="book-cover">Μ</div>
+
+    <div>
+      <h3>The Metamorphosis Formula</h3>
+
+      <p>
+        Open Journal of Modern Linguistics · 2025
+      </p>
+
+      <a href="https://www.scirp.org/journal/paperinformation?paperid=141893"
+         target="_blank" rel="noopener noreferrer">
+        Read the Article ↗
+      </a>
+    </div>
+  </div>
+
+  <div class="panel-action">
+    <a class="button"
+       href="https://orcid.org/0009-0002-5711-5856"
+       target="_blank" rel="noopener noreferrer">
+      View All Publications →
+    </a>
+  </div>
+</section>
+
+<section class="panel" id="software">
+  <h2>Software &amp; Resources</h2>
+
+  <p>
+    Python implementation and documentation
+    for the Δ architecture.
+  </p>
+
+  <div class="resources">
+
+    <a href="https://github.com/ValentinIon89/delta-architecture-linguistics"
+       target="_blank" rel="noopener noreferrer">
+      <strong>GitHub Repository ↗</strong>
+      <small>Source code and documentation</small>
+    </a>
+
+    <a href="https://pypi.org/user/Ciocioc/"
+       target="_blank" rel="noopener noreferrer">
+      <strong>PyPI Package Profile ↗</strong>
+      <small>Python software resources</small>
+    </a>
+
+    <a href="https://github.com/ValentinIon89/delta-architecture-linguistics/blob/main/README.md"
+       target="_blank" rel="noopener noreferrer">
+      <strong>Documentation ↗</strong>
+      <small>Usage examples and notes</small>
+    </a>
+
+    <a href="https://github.com/ValentinIon89/delta-architecture-linguistics/blob/main/delta_architecture.py"
+       target="_blank" rel="noopener noreferrer">
+      <strong>Python Implementation ↗</strong>
+      <small>Formal operator source code</small>
+    </a>
+
+  </div>
+
+  <a class="button"
+     href="https://github.com/ValentinIon89/delta-architecture-linguistics"
+     target="_blank" rel="noopener noreferrer">
+    View on GitHub →
+  </a>
+</section>
+
+<section class="panel" id="theory">
+  <h2>About the Research</h2>
+
+  <p>
+    The Δ operator provides a single, formally defined
+    mechanism for grammatical transformation,
+    applicable across languages and architectural levels.
+  </p>
+
+  <p>
+    The framework distinguishes macrostructural
+    correspondences from microstructural organization
+    and proposes eight operatorial regimes.
+  </p>
+
+  <p>
+    It offers a unified perspective on morphological,
+    syntactic, and hierarchical alternations,
+    with formal representations and illustrative analyses.
+  </p>
+
+  <a class="button gold" href="#about">
+    Read the Full Overview →
+  </a>
+</section>
+
 </div>
 
-<footer>
-  <div class="container">
-    © 2026 Ion Valentin Ciocioc ·
-    The Δ Architecture of Grammatical Transformation
+</main>
+
+</div>
+
+<footer id="contact">
+  <div class="container footer-inner">
+
+    <span>
+      © 2026 Ion Valentin Ciocioc |
+      Independent Researcher |
+      Athens, Greece
+    </span>
+
+    <span>
+      <a href="https://orcid.org/0009-0002-5711-5856"
+         target="_blank" rel="noopener noreferrer">
+        ORCID
+      </a>
+      &nbsp; | &nbsp;
+      <a href="https://github.com/ValentinIon89/delta-architecture-linguistics"
+         target="_blank" rel="noopener noreferrer">
+        GitHub
+      </a>
+      &nbsp; | &nbsp;
+      <a href="https://pypi.org/user/Ciocioc/"
+         target="_blank" rel="noopener noreferrer">
+        PyPI
+      </a>
+    </span>
+
   </div>
 </footer>
 
 </body>
 </html>
-
