@@ -10,6 +10,9 @@ jobs:
       - run:
           name: Verify Python syntax
           command: python -m py_compile delta_architecture.py
+      - run:
+          name: Run Delta functional regression tests
+          command: python -m unittest -v test_delta_architecture.py
 
 workflows:
   test-delta-workflow:
