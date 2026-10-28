@@ -1,0 +1,20 @@
+
+version: 2.1
+
+jobs:
+  test-delta:
+    docker:
+      - image: cimg/python:3.12
+    steps:
+      - checkout
+      - run:
+          name: Verify Python syntax
+          command: python -m py_compile delta_architecture.py
+      - run:
+          name: Run Delta functional regression tests
+          command: python -m unittest -v test_delta_architecture.py
+
+workflows:
+  test-delta-workflow:
+    jobs:
+      - test-delta

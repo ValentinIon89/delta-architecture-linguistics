@@ -1,3 +1,5 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ValentinIon89/delta-architecture-linguistics/tree/circleci-project-setup.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ValentinIon89/delta-architecture-linguistics/tree/circleci-project-setup)
+
 # Arhitectura operatorială Δ a transformării gramaticale
 
 Acest material conține un prototip demonstrativ în Python, cu exemple inspirate de articolul „The Δ Architecture of Grammatical Transformation” (Ion Valentin Ciocioc, 2026) și de anexele A și B.
