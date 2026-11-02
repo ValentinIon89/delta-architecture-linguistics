@@ -1,0 +1,2298 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.4" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">ojml</journal-id>
+<journal-title-group>
+<journal-title>Open Journal of Modern Linguistics</journal-title>
+</journal-title-group>
+<issn pub-type="epub">2164-2834</issn>
+<issn pub-type="ppub">2164-2818</issn>
+<publisher>
+<publisher-name>Scientific Research Publishing</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.4236/ojml.2026.165036</article-id>
+<article-id pub-id-type="publisher-id">ojml-154870</article-id>
+<article-categories>
+<subj-group>
+<subject>Article</subject>
+</subj-group>
+<subj-group>
+<subject>Social Sciences</subject>
+<subject>Humanities</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>The Δ Architecture of Grammatical Transformation</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">0009-0002-5711-5856</contrib-id>
+<name name-style="western">
+<surname>Ciocioc</surname>
+<given-names>Ion Valentin</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">1</xref>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<label>1</label>
+Modern Greek Language Teaching Centre, National &amp; Kapodistrian University of Athens, Athens, Greece
+</aff>
+<author-notes>
+<fn fn-type="conflict" id="fn-conflict">
+<p>The author declares no conflicts of interest regarding the publication of this paper.</p>
+</fn>
+</author-notes>
+<pub-date pub-type="epub">
+<day>08</day>
+<month>10</month>
+<year>2026</year>
+</pub-date>
+<pub-date pub-type="collection">
+<month>10</month>
+<year>2026</year>
+</pub-date>
+<volume>16</volume>
+<issue>05</issue>
+<fpage>602</fpage>
+<lpage>643</lpage>
+<history>
+<date date-type="received">
+<day>07</day>
+<month>04</month>
+<year>2026</year>
+</date>
+<date date-type="accepted">
+<day>25</day>
+<month>10</month>
+<year>2026</year>
+</date>
+<date date-type="published">
+<day>28</day>
+<month>10</month>
+<year>2026</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>© 2026 by the authors and Scientific Research Publishing Inc.</copyright-statement>
+<copyright-year>2026</copyright-year>
+<license license-type="open-access">
+<license-p>
+This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (
+<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>
+).
+</license-p>
+</license>
+</permissions>
+<self-uri content-type="doi" xlink:href="https://doi.org/10.4236/ojml.2026.165036">https://doi.org/10.4236/ojml.2026.165036</self-uri>
+<abstract>
+<p>To describe a grammatical transformation, an analysis must show how the configurations involved are related and which dependent material is affected. The Δ operatorial architecture makes this relation explicit for comparative purposes. It treats transformation as an intervention on a linguistic configuration and uses Δ as a general operator to classify how the relation is oriented or modified, without adding a mechanism specific to any one component. The framework distinguishes two linked levels of representation: macrostructural notation states the relation between configurations, while microstructural notation specifies the relational nucleus and the affected material. Together, these levels organize eight regimes: directional correspondence, integration, semantic or grammatical reorientation, correlated replacement, relational coupling, elimination, positional reorganization, and cumulative paradigmatic organization. Comparisons with established theoretical frameworks illustrate how the architecture describes an intervention’s structural conditions while leaving each framework’s explanation intact; it does not adjudicate empirical disagreements among them. Examples from Romanian, English, and Modern Greek demonstrate the notation and comparative procedure. The framework’s applicability and limitations remain open to further empirical assessment.</p>
+</abstract>
+<kwd-group kwd-group-type="author-generated" xml:lang="en">
+<kwd>Grammatical Transformation</kwd>
+<kwd>Δ Operatorial Architecture</kwd>
+<kwd>Comparative Classification</kwd>
+<kwd>Formal Representation</kwd>
+<kwd>Distributed Morphology</kwd>
+<kwd>Word-and-Paradigm Morphology</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec1">
+<title>1. Introduction</title>
+<p>
+Generative approaches relate transformations to hierarchical syntactic representations and feature configurations ([
+<xref ref-type="bibr" rid="B10">10</xref>
+]). Distributed Morphology separates syntactic structure from post-syntactic realization through mechanisms such as Vocabulary Insertion ([
+<xref ref-type="bibr" rid="B26">26</xref>
+]; [
+<xref ref-type="bibr" rid="B21">21</xref>
+]), whereas Word-and-Paradigm approaches emphasize relations among forms and morphosyntactic values within paradigms ([
+<xref ref-type="bibr" rid="B36">36</xref>
+]). Although these frameworks are not empirically interchangeable, they may assign different descriptive statuses to structurally related configurations. This creates a problem of classificatory instability: a comparable formal relation may be described through syntactic feature structure, post-syntactic realization, contextual allomorphy, phonological conditioning, or paradigmatic organization. The variation does not make the data irrelevant or reduce theoretical disagreement to a methodological difference; it shows that different explanatory mechanisms do not automatically provide a shared descriptive vocabulary.
+</p>
+<p>In this article, transformation does not refer specifically to movement in Generative Grammar, but to a structurally identifiable intervention affecting a linguistic configuration. The question is how such interventions can be compared across theoretical frameworks without making one framework’s explanatory mechanism the classificatory criterion for all others. The Δ operatorial architecture addresses this question by providing a descriptive vocabulary for identifying the structural type of an intervention at a specified representational level, without replacing existing accounts of grammatical formation or realization.</p>
+<p>
+The symbol Δ is adopted for its established association with change or difference in formal notation ([
+<xref ref-type="bibr" rid="B1">1</xref>
+]). Here, it marks a formally identifiable relation of change between linguistic configurations; it does not represent grammatical transformation as a numerical difference between values. The proposal treats transformation as a decomposable relation among an initial configuration, a structural intervention, and a resulting configuration. This draws a limited analogy with formal equations, which make explicit relations between terms and the operations connecting them. The analogy does not treat grammatical transformations as calculations or linguistic forms as numerical values; it motivates representing a process through components and conditions that can be identified independently.
+</p>
+<p>Δ is a single general operator whose regimes represent different orientations of structural intervention rather than distinct explanatory mechanisms. The proposed inventory comprises Δ (→), directional correspondence; Δ (+), integration; Δ (>&lt;), semantic or grammatical reorientation; Δ (−/+), correlated replacement; Δ (>/&lt;), relational coupling; Δ (−), elimination; Δ (~), positional reorganization; and Δ (±), cumulative paradigmatic organization. These regimes are proposed as a formal inventory, not as an empirically established exhaustive typology. Their applicability depends on explicit activation criteria and on whether competing classifications can be distinguished at the same representational level.</p>
+<p>
+The architecture distinguishes macrostructural from microstructural representation. Macrostructural formulas record stabilized relations between configurations, while microstructural formulas specify the relational nucleus R
+<sub>0</sub>
+and the dependent components affected by an intervention. This distinction allows the relation to be classified separately from the framework-specific mechanism through which it may be generated, realized, or interpreted. Terms such as affixation, suppletion, allomorphy, phonological adjustment, and paradigmatic realization therefore remain necessary in theories explaining particular phenomena. Δ offers a comparative description of the relation under examination without presupposing that different analyses make identical theoretical claims.
+</p>
+<p>
+Building on the broader framework for grammatical transformation introduced in The Metamorphosis Formula ([
+<xref ref-type="bibr" rid="B11">11</xref>
+]), this article develops its operatorial component by systematizing the eight Δ regimes, their macrostructural and microstructural representations, the R
+<sub>0</sub>
+diagnostic, and the criteria for assigning a regime. It also presents Δ as a self-contained comparative classificatory framework. The proposal remains open to assessment: if a phenomenon cannot be assigned to any proposed regime, or allows two competing assignments at the same representational level, an activation criterion, a distinction between levels, or the inventory itself may need revision. Such cases would motivate further development of the model but would not, by themselves, establish its validity.
+</p>
+<p>Section 2 compares selected phenomena across major theoretical frameworks and relates the proposal to comparative concepts. Sections 3 - 4 define the notation and macro-micro architecture and present the eight regimes. Section 5 sets out the analytical protocol and preliminary internal assessment; Section 6 specifies predictions, revision conditions, and structural exclusions; and Section 7 presents an extended case study. Sections 8 - 10 discuss theoretical implications, scope, limitations, and conclusions.</p>
+<sec id="sec1dot1">
+<title>Methodological Approach</title>
+<p>
+This study adopts a comparative formal perspective that distinguishes structural classification from framework-specific explanation ([
+<xref ref-type="bibr" rid="B33">33</xref>
+]; [
+<xref ref-type="bibr" rid="B28">28</xref>
+]); the dataset, selection principles, and analytical protocol are specified in Section 5, while the formal constraints and conditions of revision are set out in Section 6.
+</p>
+</sec>
+</sec>
+<sec id="sec2">
+<title>2. Literature Review and Theoretical Tension</title>
+<sec id="sec2dot1">
+<title>2.1. Major Theoretical Frameworks</title>
+<p>Contemporary linguistic theory approaches grammatical transformation through different parts of grammatical organization. Rather than treating these approaches as empirically interchangeable or reducing them to a single theory, this study examines how their differing explanatory priorities shape the description of structurally related configurations.</p>
+<p>
+Minimalism relates grammatical alternations to syntactic feature structure and operations over hierarchical representations ([
+<xref ref-type="bibr" rid="B8">8</xref>
+]). Distributed Morphology separates syntactic feature structure from post-syntactic realization through Vocabulary Insertion and operations such as Fusion or Impoverishment ([
+<xref ref-type="bibr" rid="B26">26</xref>
+]; [
+<xref ref-type="bibr" rid="B23">23</xref>
+]; [
+<xref ref-type="bibr" rid="B22">22</xref>
+]). Word-and-Paradigm morphology treats inflection through relations among forms and morphosyntactic values within paradigms ([
+<xref ref-type="bibr" rid="B36">36</xref>
+]; [
+<xref ref-type="bibr" rid="B12">12</xref>
+]; [
+<xref ref-type="bibr" rid="B2">2</xref>
+]). Construction Grammar analyzes related patterns through form-meaning pairings, inheritance, and analogical generalization rather than through transformations over underlying representations ([
+<xref ref-type="bibr" rid="B24">24</xref>
+]; [
+<xref ref-type="bibr" rid="B13">13</xref>
+]; [
+<xref ref-type="bibr" rid="B5">5</xref>
+]).
+</p>
+<p>Sections 2.2 and 2.3 apply these framework-specific commitments to two recurrent phenomena: correlated replacement, illustrated by casă → case, and English plural realization. The discussion does not attribute a published analysis of these exact forms to every framework. Unless a source is cited for a specific analysis, the accounts are comparative reconstructions based on each framework’s general commitments. The comparison therefore follows the dimensions outlined above: syntactic structure and realization, post-syntactic operations, relations among forms and morphosyntactic values, and form–meaning pairings, inheritance, and analogy. Appendix B, Figure 6, “Comparative Descriptions of the Romanian Relation casă (‘house.SG’) → case (‘house.PL’),” summarizes the comparison.</p>
+<p>The following sections distinguish each framework’s explanation of these phenomena from the Δ architecture’s comparative description of structural intervention. They examine how the relation can be classified without treating one framework’s explanatory mechanism as the standard for all the others.</p>
+</sec>
+<sec id="sec2dot2">
+<title>2.2. Framework-Dependent Classification of Transformational Relations</title>
+<p>The comparison of theoretical frameworks identifies a classificatory problem rather than an established empirical conclusion: structurally related phenomena may receive different analytical descriptions when models locate explanation in different components of grammar. Frameworks may differ both in their explanatory architecture and in their empirical assumptions about the representation, realization, or distribution of grammatical information.</p>
+<p>
+For example, an internal alternation within a paradigm may be described through syntactic feature configurations, post-syntactic realization or Vocabulary Insertion, phonological adjustment, or paradigmatic relations among forms. Distributed Morphology distinguishes syntactic structure from morphological realization and provides mechanisms for post-syntactic operations and Vocabulary Insertion ([
+<xref ref-type="bibr" rid="B26">26</xref>
+]; [
+<xref ref-type="bibr" rid="B23">23</xref>
+]; [
+<xref ref-type="bibr" rid="B22">22</xref>
+]). Word-and-Paradigm approaches instead treat relations among forms and feature values within a paradigm as central to morphological analysis ([
+<xref ref-type="bibr" rid="B30">30</xref>
+]; [
+<xref ref-type="bibr" rid="B36">36</xref>
+]). These descriptions need not be mutually incompatible, but they do not provide a shared vocabulary for classifying the structural relation itself.
+</p>
+<p>The same issue arises in correlated replacement, where one identifiable component is eliminated and another introduced in the same structural position. Framework-specific analyses may describe this relation through feature realization, Vocabulary Insertion, or paradigmatic realization. Unless a source analyzes a particular empirical example, such comparisons should be understood as reconstructions based on the frameworks’ general commitments, rather than as claims about how they analyze that exact form.</p>
+<p>
+The Δ architecture provides a comparative classification of this intervention. Where the relevant structural conditions are satisfied, the correlated elimination and introduction of material in the same identified position are classified as Δ (−/+). The macrostructural relation is represented as A (−n
+<sub>1</sub>
++ n
+<sub>2</sub>
+) = A′, while the microstructural representation, 1C [(R₀)−/+] {−c
+<sub>1</sub>
+[ (R
+<sub>0</sub>
+)+] + c
+<sub>2</sub>
+[ (R
+<sub>0</sub>
+)+]} = 2C [(R
+<sub>0</sub>
++)], specifies the affected components and their relation to R
+<sub>0</sub>
+. This classification describes the structural relation without determining whether its explanation is syntactic, post-syntactic, phonological, or paradigmatic.
+</p>
+<p>The corresponding visual illustration is provided in Appendix B, Figure 10, “Visual Illustration of the Δ(−/+) Substitutional Regime.”</p>
+<p>
+The proposal also draws on the notion of a comparative concept ([
+<xref ref-type="bibr" rid="B28">28</xref>
+]), extending its comparative logic to the analysis of relations across theoretical frameworks rather than deriving its classificatory categories from any single framework. Its usefulness depends on whether its activation criteria can be applied consistently to independently described data. The following case study examines the English plural as a limited illustration of how framework-specific analyses and the proposed Δ description may be compared without treating their differences as already resolved.
+</p>
+</sec>
+<sec id="sec2dot3">
+<title>2.3. Case Study: English Regular Plural Realization in Distributed Morphology</title>
+<p>
+The regular English plural provides a focused case for examining morphological realization within Distributed Morphology ([
+<xref ref-type="bibr" rid="B26">26</xref>
+]; [
+<xref ref-type="bibr" rid="B21">21</xref>
+]). The analysis is limited to the framework-specific account of plural realization. It does not apply the Δ architecture, nor does it assess the empirical adequacy of Distributed Morphology.
+</p>
+<p>2.3.1. The Analysis in Distributed Morphology</p>
+<p>
+In Distributed Morphology, syntactic structure is distinguished from morphological and phonological realization ([
+<xref ref-type="bibr" rid="B23">23</xref>
+]). Syntax operates over abstract feature bundles. In a regular English plural noun, the plural feature may be represented on a functional Number head. At Vocabulary Insertion, the regular plural is realized by a single exponent, /z/ ([
+<xref ref-type="bibr" rid="B21">21</xref>
+]).
+</p>
+<p>The surface forms [s], [z], and [ɪz] are not three competing Vocabulary Items selected through the Subset Principle. They are phonological realizations of the exponent /z/ in different environments. Thus, in cat → cats, the plural exponent has the surface realization [s]. The distinction is necessary because the morphological insertion of /z/ and its phonological realization belong to different stages of the analysis.</p>
+<p>
+The Subset Principle concerns the insertion of Vocabulary Items whose feature specifications are compatible with a terminal node ([
+<xref ref-type="bibr" rid="B26">26</xref>
+]). It does not select [s], [z], and [ɪz] as three distinct regular-plural exponents in Embick’s analysis.
+</p>
+<p>2.3.2. Morphological Realization and Phonological Derivation</p>
+<p>The regular English plural therefore involves a layered derivation. At the morphological level, the plural feature is realized through the insertion of /z/. At the phonological level, the inserted exponent receives its surface realization according to its phonological environment. The alternation [s] ~ [z] ~ [ɪz] consequently does not constitute three distinct morphological operations.</p>
+<p>
+This distinction is relevant to the comparative discussion because analyses must not conflate morphological realization with phonological derivation. Distributed Morphology explains the regular plural through the relation between abstract morphosyntactic structure, Vocabulary Insertion, and phonological realization. Word-and-Paradigm morphology instead treats plural forms as realizations of morphosyntactic values within a paradigm ([
+<xref ref-type="bibr" rid="B36">36</xref>
+]; [
+<xref ref-type="bibr" rid="B2">2</xref>
+]). These frameworks differ in explanatory architecture, without requiring the present section to apply a separate classificatory model.
+</p>
+</sec>
+</sec>
+<sec id="sec3">
+<title>3. The Δ Operatorial Architecture</title>
+<p>In response to the classificatory problem outlined in Section 2, the Δ operatorial architecture is proposed as a formal framework for the comparative classification of transformational interventions. It is grounded in the unicity of the operator Δ and in the distinction between macrostructural and microstructural levels of representation.</p>
+<p>The following sections specify the formal elements of the architecture, including the status of its symbols, the relation between macrostructural and microstructural formulas, and the distinction between relational and executional regimes. Macrostructural representations record stabilized relations between configurations, whereas microstructural representations specify the relational nucleus and the dependent material affected by an intervention. The corresponding visual representations are provided in Appendix B, Figures 7-14.</p>
+<sec id="sec3dot1">
+<title>3.1. Unicity of Δ</title>
+<p>The Δ architecture adopts Δ as a general classificatory operator whose formal identity remains constant across processes such as integration, reduction, simultaneous substitution, and reorganization; these are represented as distinct regimes. This is a design axiom of the comparative model, not an empirical claim that natural language contains only one transformational operation. Δ expresses the structural condition of intervention independently of syntax, morphology, or other architectural domains; it does not reduce the mechanisms proposed by existing linguistic theories to a single linguistic operation.</p>
+</sec>
+<sec id="sec3dot2">
+<title>3.2. Macro-Micro Axiom</title>
+<p>The Δ architecture is grounded in a methodological distinction between macrostructural and microstructural levels, corresponding to two analytical planes of transformational intervention.</p>
+<p>The macrostructural level has a relational and declarative character: it establishes relations between units treated as wholes and records the stabilized result of an intervention, with classification determined by the active operatorial regime of Δ.</p>
+<p>
+By contrast, the microstructural level specifies the internal organization of the configuration and the way in which an intervention affects dependent structural material relative to R
+<sub>0</sub>
+.
+</p>
+<p>These levels correspond to distinct but coordinated analytical functions: macrostructural classification and microstructural specification. They are complementary perspectives and must not be treated as interchangeable representations.</p>
+</sec>
+<sec id="sec3dot3">
+<title>3.3. Relational and Executional Orientations</title>
+<p>
+Within the Δ architecture, relational and executional orientations distinguish two types of analytical claim. A relational claim concerns the correspondence or functional relation established between configurations treated as wholes. An executional claim concerns the internal modification of dependent material within a configuration relative to R
+<sub>0</sub>
+.
+</p>
+<p>The relational orientation is represented through regimes such as Δ (→), which records an oriented correspondence, and Δ (>/&lt;), which records the establishment of a functional relation between already constituted units. It does not, by itself, classify the material operation through which a form is realized.</p>
+<p>
+The executional orientation specifies whether dependent material is integrated, eliminated, replaced, or positionally reorganized. It is represented through regimes such as Δ (+), Δ (−), Δ (−/+), and Δ (~), whose microstructural formulas identify the affected components and their positions relative to R
+<sub>0</sub>
+. A phenomenon may receive both a relational and an executional description only when these concern distinct analytical claims and are stated in separate representations. Thus, Δ (→) may record the oriented correspondence between two configurations, while Δ (−/+) classifies a substitution affecting dependent material. These are complementary descriptions at different representational levels, not competing regime assignments within the same formula.
+</p>
+</sec>
+<sec id="sec3dot4">
+<title>3.4. Status of A, B, C, and X</title>
+<p>In the Δ operatorial architecture, the unindexed symbols A, B, and C have an exclusively macrostructural status: they designate relational positions occupied by whole configurations without encoding their internal organization. In A Δ B = C, A and B are the terms entering the relation, and C is the stabilized outcome. These are positions within a formula, not fixed ontological categories; a configuration designated as C in one formula may be designated as A or B in a subsequent formula.</p>
+<p>
+When the transformation preserves the identity of the unit, A Δ A = A′ represents an updated state of the same macrostructural configuration. When it yields a distinct unit, A Δ A = B represents a different resulting configuration. Whether the relation preserves the same relational nucleus or requires a new R
+<sub>0</sub>
+and a new operatorial cycle is determined at the microstructural level through the diagnostic specified in Section 3.6.
+</p>
+<p>
+At the microstructural level, indexed expressions such as 1C [(R
+<sub>0</sub>
++)] and 2C [(R
+<sub>0</sub>
++)] represent successive internally specified configurations. Unlike the unindexed macrostructural symbol C, they encode internal organization relative to R
+<sub>0</sub>
+, represented by [(R
+<sub>0</sub>
++)].
+</p>
+<p>
+The symbol X designates a stabilized macrostructural paradigmatic domain, not an individual configuration or a new operatorial value. In X
+<sub>1</sub>
+–ₖ, the indices identify the range of correlated configurations in the domain, with k ≥ 3. The notation records multiple realizations of the same structural base after their cumulative paradigmatic stabilization through Δ (±). X does not designate a microstructural configuration, modify the status of R
+<sub>0</sub>
+, or replace analysis of the local interventions connecting the individual realizations.
+</p>
+</sec>
+<sec id="sec3dot5">
+<title>3.5. Status of n and c</title>
+<p>
+In the Δ operatorial architecture, n has an exclusively macrostructural status: it designates dependent grammatical material participating in a relational configuration without encoding its internal organization, position, or mode of realization. The symbol c has a microstructural status and designates the corresponding dependent component within a configuration’s internal organization relative to the relational nucleus R
+<sub>0</sub>
+.
+</p>
+<p>In macrostructural formulas, n identifies the material affected by an intervention: in A + n = A′, it designates the dependent material integrated into the configuration; in 1A − n = 2A, it designates the material eliminated. The symbol n does not specify whether the material is prefixal, infixal, suffixal, or otherwise organized at the internal structural level.</p>
+<p>The numerical notation associated with n and c has three distinct functions:</p>
+<p>1) successive states: 1n, 2n, 3n and 1c, 2c, 3c identify successive descriptive states of the same dependent material or component within an operatorial relation. The number placed before the symbol marks the order of those states.</p>
+<p>2) distinct components: n1, n2, n3 and c1, c2, c3 identify distinct dependent materials or components within the same relational or microstructural configuration. They distinguish materials involved in one intervention without expressing paradigmatic membership or successive transformation.</p>
+<p>
+3) paradigmatic members: n
+<sub>1</sub>
+, n
+<sub>2</sub>
+<sub>,</sub>
+n
+<sub>3</sub>
+and c
+<sub>1</sub>
+, c
+<sub>2</sub>
+, c
+<sub>3</sub>
+identify correlated dependent materials or components within a paradigmatic series. They distinguish members of a structured domain in which the relational nucleus remains constant while dependent grammatical material varies.
+</p>
+<p>
+The correspondence between macrostructural and microstructural indices is as follows: 1n ↔ 1c; 2n ↔ 2c; 3n ↔ 3c; n1 ↔ c1; n2 ↔ c2; n3 ↔ c3; n
+<sub>1</sub>
+↔ c
+<sub>1</sub>
+; n
+<sub>2</sub>
+↔ c
+<sub>2</sub>
+; n
+<sub>3</sub>
+↔ c
+<sub>3</sub>
+. Although the index forms correspond, they are not interchangeable: the n forms record dependent material as relational participants at the macrostructural level, whereas the c forms specify the corresponding material within a configuration’s internal organization.
+</p>
+<p>
+The position of c relative to R
+<sub>0</sub>
+is specified exclusively at the microstructural level: c [+ (R
+<sub>0</sub>
+)] for prefixal material, c [(+R
+<sub>0</sub>
+)] for infixal material, and c [(R
+<sub>0</sub>
+)+] for suffixal material. These positional specifications may be combined with the relevant component index, for example c1 [(R
+<sub>0</sub>
+)+] or c
+<sub>1</sub>
+[(R
+<sub>0</sub>
+)+].
+</p>
+<p>
+These positional expressions must be distinguished from the canonical configuration notation C [(R
+<sub>0</sub>
++)]. In C [(R
+<sub>0</sub>
++)], the sign + marks the informational activation of the relational nucleus and does not specify the position of a dependent component. By contrast, in c [+(R
+<sub>0</sub>
+)], c [(+R
+<sub>0</sub>
+)], and c [(R
+<sub>0</sub>
+)+], its placement relative to R
+<sub>0</sub>
+specifies the position of c.
+</p>
+<p>A macrostructural formula may identify n1 as the material eliminated and n2 as the material introduced, while its microstructural counterpart specifies the respective components and their positions. For example:</p>
+<p>
+A (−n1 + n2) = A′ ↔ 1C [(R
+<sub>0</sub>
++)] {−c1 [(R
+<sub>0</sub>
+)+] + c2 [(R
+<sub>0</sub>
+)+]} = 2C [(R
+<sub>0</sub>
++)].
+</p>
+<p>
+Here, c1 [(R
+<sub>0</sub>
+)+] and c2 [(R
+<sub>0</sub>
+)+] specify suffixal components. This suffixal positional specification is illustrative; in other cases, the macrostructural components n1 and n2 may correspond to microstructural components c1 and c2 in prefixal or infixal positions. The two formulas describe the same intervention at different analytical levels: the first identifies the relational modification, while the second specifies its internal structural realization.
+</p>
+<p>The notation, index correspondence, and positional values of n and c are con-solidated in Appendix B, Figures 1a-1c, “Notation and Formal Values.”</p>
+</sec>
+<sec id="sec3dot6">
+<title>3.6. R and Internal Stabilization</title>
+<p>In the Δ operatorial architecture, R denotes the structural center around which lexical material, dependent components, and internal relations are represented. R itself does not designate an operator, a regime value, a directional marker, or an independent mechanism of transformation; operatorial and directional values are expressed by the signs occurring in relation to R.</p>
+<p>
+Without a subscript, R identifies an explicitly represented lexical root when that root is analytically relevant as the center of the configuration. Accordingly, C [(R)] represents a whole lexical configuration through its identifiable root. R
+<sub>0</sub>
+, by contrast, denotes the abstract relational nucleus that makes structural continuity formally identifiable even when the analysis does not require exhaustive segmental decomposition of the root. In the canonical microstructural representation C [(R
+<sub>0</sub>
++)], R
+<sub>0</sub>
+organizes the configuration without standing for a phonological segment, morpheme, morphological category, syntactic position, operator, or value of Δ.
+</p>
+<p>
+The subscript 0 does not indicate a null morpheme, zero exponent, empty position, or omitted structural element; it marks the abstract representation of the relational nucleus. Within C [(R
+<sub>0</sub>
++)], + marks the informational activation of that nucleus. It does not function here as an operator of integration or addition, or specify the position of dependent material. Those functions are distinct: + is operatorial in Δ (+), while in c [+(R
+<sub>0</sub>
+)], c [(+R
+<sub>0</sub>
+)], and c [(R
+<sub>0</sub>
+)+] its placement specifies prefixal, infixal, and suffixal material, respectively.
+</p>
+<p>
+When the lexical root is explicitly represented, the corresponding positional forms are c [+(R)], c [ (+R)], and c [(R)+]. These locate dependent material relative to the root rather than to the abstract relational nucleus. The distinction between C and c remains the same in both notations: C designates a whole configuration, while c designates a component represented within one. Positional relations are specified only at the microstructural level; they locate a dependent component without changing the status of R
+<sub>0</sub>
+as the relational nucleus.
+</p>
+<p>
+During an executional intervention, dependent material associated with R
+<sub>0</sub>
+may change while R
+<sub>0</sub>
+retains its stabilizing function. It therefore remains constant within a single operatorial cycle. If the conditions for structural continuity are not met, the result is treated as a distinct configuration: a new R
+<sub>0</sub>
+must be identified, and a new operatorial cycle begins. This decision is based on structural invariance, not on whether the same segmental material remains visible. The relevant question is whether the same relational nucleus can still be identified as dependent material changes. The criterion does not rely solely on language-specific morphological segmentation; it concerns the preservation of structurally identifiable relations across configurations. This interpretation is compatible with approaches that treat morphological structure as internally organized without reducing it to a sequence of discrete segments ([
+<xref ref-type="bibr" rid="B4">4</xref>
+]).
+</p>
+<p>
+The boundary conditions for retaining or replacing R
+<sub>0</sub>
+are assessed through the following ordered diagnostic:
+</p>
+<p>1. Identify the base configuration and the dependent material proposed to undergo modification.</p>
+<p>2. Test whether a common relational nucleus remains recoverable before and after the intervention.</p>
+<p>3. Verify whether the relevant structural relations can be maintained without redefining the base configuration.</p>
+<p>4. Determine whether the change can be formalized as the integration, elimination, substitution, semantic redistribution, relational coupling, or positional reorganization of dependent material.</p>
+<p>
+5. If all preceding conditions are satisfied, retain the same R
+<sub>0</sub>
+and analyze the relation within the current operatorial cycle. If one or more conditions fail, identify a new R
+<sub>0</sub>
+and treat the result as the beginning of a new cycle.
+</p>
+<p>
+When more than one candidate for R
+<sub>0</sub>
+is possible, each must be stated and tested through the same diagnostic. An analysis is retained only if it identifies the dependent material affected, preserves the relevant structural relations without redefining the base configuration, and classifies the change through one of the permitted forms of intervention. If multiple candidates satisfy these conditions, the preferred analysis is the one that preserves the greatest number of independently identifiable structural relations while requiring the fewest unmotivated redefinitions. If none meets the conditions, the relation is analyzed as a change of R
+<sub>0</sub>
+rather than as an internal modification.
+</p>
+<p>
+In casă → case, the base cas- remains identifiable, the relevant structural relation is preserved, and the final material changes from -ă to -e. The relation can therefore be formalized as a substitution affecting dependent material while preserving R
+<sub>0</sub>
+. By contrast, in go → went, the resulting form cannot be recovered as a modification of dependent material associated with the same relational nucleus under this diagnostic. The relation is therefore treated as a change of R
+<sub>0</sub>
+, requiring a new relational nucleus and the beginning of a new operatorial cycle.
+</p>
+<p>The notational distinction between R and R₀ is summarized in Appendix B, Figures 1a-1c, “Notation and Formal Values.” The ordered diagnostic for retaining or replacing R₀ is presented in Appendix B, Figure 2, “Decision Procedure for Retaining or Replacing R₀.”</p>
+</sec>
+<sec id="sec3dot7">
+<title>3.7. Status of “=”</title>
+<p>In the Δ operatorial architecture, the symbol “=” has a declarative stabilizing function and does not have operatorial status. It does not introduce, eliminate, substitute, redistribute, couple, or positionally reorganize structural material. Rather, it marks the configuration established after an intervention already identified through the relevant regime of Δ.</p>
+<p>The symbol “=” does not express numerical equality, formal identity, or equivalence between the terms situated on its two sides. It records the stabilization of the resulting configuration within the relation expressed by the formula. The intervention itself is identified by Δ and its active regime, not by “=”.</p>
+<p>At the macrostructural level, “=” records the stabilization of a relational outcome. In a formula such as A Δ B = C, Δ identifies the intervention, while “=” marks C as the configuration established as its outcome. The symbol does not encode the process through which C is obtained and does not independently classify the relation.</p>
+<p>
+At the microstructural level, “=” marks the stabilization of an internally specified resulting configuration. For example: 1C [(R
+<sub>0</sub>
++)] {−c1 [(R
+<sub>0</sub>
+)+] + c2 [(R
+<sub>0</sub>
+)+]} = 2C [(R
+<sub>0</sub>
++)].
+</p>
+<p>
+The expression within braces specifies the internal substitutional intervention, while “=” marks 2C [(R
+<sub>0</sub>
++)] as the resulting stabilized configuration. It does not perform the intervention, alter the value of R
+<sub>0</sub>
+, or introduce an additional structural operation.
+</p>
+<p>The function of “=” is therefore constant across the two analytical levels: it marks stabilization after an intervention. What differs is the type of representation. At the macrostructural level, it stabilizes a relational outcome; at the microstructural level, it stabilizes an internally specified configuration. In neither case does “=” constitute an additional operatorial value or a mechanism of transformation.</p>
+<p>The declarative stabilizing function of “=” is summarized in Appendix B, Figure 1c, “Notation and Formal Values.”</p>
+</sec>
+<sec id="sec3dot8">
+<title>3.8. Status of “/”</title>
+<p>In the Δ operatorial architecture, the symbol “/” does not have operatorial status. It functions as a configurational marker of an already established relation and does not itself introduce, eliminate, substitute, redistribute, or positionally reorganize structural material.</p>
+<p>The symbol “>” likewise does not have operatorial status. It functions as a directional relational marker within the semantic or grammatical reorientation regime Δ (>&lt;). In the macrostructural formula (n > A) = B, it indicates that dependent material n is directionally related to configuration</p>
+<p>
+A. In the microstructural formula c [+(R
+<sub>0</sub>
+)] > C1 [+(R
+<sub>0</sub>
+)] = C2 [(R
+<sub>0</sub>
++)], it indicates that the corresponding component c is directionally related to C1 relative to R
+<sub>0</sub>
+. The marker “>” does not independently introduce, eliminate, substitute, couple, or reorganize structural material. Δ (>&lt;) remains the only active operatorial regime.
+</p>
+<p>At the macrostructural level, expressions of the type A/B record the co-presence or functional association of two already constituted units within the same configuration. The symbol “/” does not express the process through which that relation was established. It marks only the relation as represented in the stabilized configuration.</p>
+<p>This function must be distinguished from the relational coupling regime Δ (>/&lt;). The regime Δ (>/&lt;) identifies the operatorial intervention through which a functional relation is established or structurally updated. By contrast, “/” records the relation after its establishment and does not constitute an additional operatorial value.</p>
+<p>
+At the microstructural level, the expression C [ (‘/R
+<sub>0</sub>
++)] designates a relationally unified structural configuration resulting from relational coupling. It represents the stabilized configuration in which separately identifiable components are functionally associated through the intervention classified as Δ (>/&lt;). This expression is distinct from the canonical notation C [ (R
+<sub>0</sub>
++)], which represents a stabilized microstructural configuration organized around R
+<sub>0</sub>
+.
+</p>
+<p>
+The expression c [ (‘R
+<sub>0</sub>
++)] designates a dependent component reinterpreted in a relational function within the resulting configuration. It does not mark the addition, elimination, substitution, or positional reorganization of material. It specifies the functional status of a component participating in the relational configuration established through Δ (>/&lt;).
+</p>
+<p>
+Accordingly, “/” has a descriptive relational function at both analytical levels. At the macrostructural level, it records a relation between whole units. In C [ (‘/R
+<sub>0</sub>
++)], it forms part of the microstructural notation of the relationally unified configuration. In neither case does it perform relational coupling itself; that function belongs exclusively to Δ (>/&lt;).
+</p>
+<p>
+The internal apostrophe appearing in C [(‘/R
+<sub>0</sub>
++)] and c [(‘R
+<sub>0</sub>
++)] forms part of the microstructural notation for relational specification. Its formal status is specified separately in Section 3.11.
+</p>
+<p>The non-operatorial functions of “/” and “>”, together with the corresponding relational notation, are summarized in Appendix B, Figures 1b-1c, “Notation and Formal Values.”</p>
+</sec>
+<sec id="sec3dot9">
+<title>3.9. Status of “+” in Macrostructural and Microstructural Usage</title>
+<p>The symbol “+” does not have a single invariant function within the Δ architecture. Its interpretation is determined by the formal environment in which it occurs. It does not independently constitute an operator, because operatorial classification is determined exclusively by Δ and its specified regime. At the macrostructural level, “+” occurs in two distinct contexts. In Δ (+), it identifies the additive regime of the operator Δ, corresponding to the integration of dependent material. The additive status belongs to the complete expression Δ (+), not to the sign “+” considered in isolation.</p>
+<p>In a substitutional formula such as: A (−n1 + n2) = A′, the sign “+” marks the inclusion of n2 within the specified substitutional configuration. It does not identify a separate additive regime, because the relation as a whole is classified as simultaneous substitution through the combined expression (−n1 + n2).</p>
+<p>
+At the microstructural level, “+” likewise has functions determined by its formal position. In the canonical configuration notation C [(R
+<sub>0</sub>
++)], it marks the informational activation of the relational nucleus within an internally specified configuration. In this context, it does not express the integration or addition of dependent material, nor does it specify the position of such material.
+</p>
+<p>
+The positional use of “+” applies only to expressions specifying dependent material relative to R
+<sub>0</sub>
+. The convention is uniform: c [+(R
+<sub>0</sub>
+)] = prefixal material; c [(+R
+<sub>0</sub>
+)] = infixal material; c [(R
+<sub>0</sub>
+)+] = suffixal material.
+</p>
+<p>
+At the configurational level, correlated substitution is specified according to the position of the affected dependent material: C [ (R
+<sub>0</sub>
+)−/+] represents suffixal substitution; C [−/+ (R
+<sub>0</sub>
+)] represents prefixal substitution; and C [(−/+R
+<sub>0</sub>
+)] represents infixal substitution. These notations specify the position and substitutional status of the initial configuration; they do not introduce additional operators.
+</p>
+<p>
+Accordingly, the relevant initial configuration is represented as 1C [(R
+<sub>0</sub>
+)−/+], 1C [−/+ (R
+<sub>0</sub>
+)], or
+</p>
+<p>
+1C [(−/+R
+<sub>0</sub>
+)], while the stabilized result is represented as 2C [(R
+<sub>0</sub>
++)]. The correlated elimination and introduction of the specific dependent components are represented separately through expressions such as {−c1 [(R
+<sub>0</sub>
+)+] + c2 [(R
+<sub>0</sub>
+)+]}.
+</p>
+<p>
+In a microstructural formula such as: 1C [ (R
+<sub>0</sub>
+)−/+]{−c1 [(R
+<sub>0</sub>
+)+] + c2 [(R
+<sub>0</sub>
+)+]} = 2C [ (R
+<sub>0</sub>
++)], the sign “+” marks the inclusion of c2 within the specified substitutional configuration. It does not itself perform the substitution and does not create an additional operatorial value. The substitutional regime is identified through the complete configuration containing the correlated elimination of c1 and introduction of c2.
+</p>
+<p>
+The status of “+” is therefore context-dependent but formally constrained. In Δ (+), it identifies the additive regime of Δ; in substitutional configurations, it marks the inclusion of material introduced after elimination; in C [(R
+<sub>0</sub>
++)], it marks the informational activation of R
+<sub>0</sub>
+; and in expressions involving c, its placement relative to R
+<sub>0</sub>
+specifies prefixal, infixal, or suffixal material. These uses must not be conflated.
+</p>
+<p>The context-dependent functions of “+” and the positional substitutional notations are summarized in Appendix B, Figures 1b-1c, “Notation and Formal Values.” A visual application of the suffixal substitutional configuration is provided in Appendix B, Figure 10, “Visual Illustration of the Δ (−/+) Substitutional Regime.”</p>
+</sec>
+<sec id="sec3dot10">
+<title>3.10. Formal Difference between Macro and Micro Formulas</title>
+<p>The difference between macrostructural and microstructural formulas concerns the level of formal representation at which a transformational relation is expressed. Both types of formula belong to the same operatorial architecture and do not introduce distinct operators. Rather, they provide complementary representations of the same intervention.</p>
+<p>At the macrostructural level, relations are expressed through configurations such as: A Δ B = C. The symbols A, B, and C designate relational positions occupied by whole configurations and do not specify their internal composition. Δ identifies the intervention, while “=” records the stabilization of the resulting configuration. Macrostructural formulas therefore have a declarative and classificatory function.</p>
+<p>
+At the microstructural level, the same intervention is represented through internally specified configurations in which the relational nucleus R
+<sub>0</sub>
+and the dependent components c are formally distinguished. In C [(R
+<sub>0</sub>
++)], the sign + marks the informational activation of the relational nucleus. By contrast, c [+(R
+<sub>0</sub>
+)], c [(+R
+<sub>0</sub>
+)], and c [(R
+<sub>0</sub>
+)+] specify the prefixal, infixal, or suffixal position of dependent material relative to R
+<sub>0</sub>
+. Microstructural formulas therefore identify the internal structural realization of an intervention already classified at the macrostructural level.
+</p>
+<p>The correspondence between the two levels is systematic but does not imply notational identity. A macrostructural formula identifies and stabilizes a relational intervention, whereas the corresponding microstructural formula specifies the internal configuration through which that intervention is realized. The two formula types must therefore not be treated as interchangeable expressions.</p>
+<p>The correspondence rules for the eight regimes of Δ are as follows:</p>
+<p>
+Directional regime, Δ (→). At the macrostructural level, the regime records an oriented correspondence between A and A′. At the microstructural level, it represents the corresponding relation between 1C [(R
+<sub>0</sub>
++)] and 2C [(R
+<sub>0</sub>
++)] without, by itself, classifying the internal material operation.Additive regime, Δ (+). At the macrostructural level, the regime classifies the integration of dependent material n into a configuration. At the microstructural level, it specifies the integrated component c and, where relevant, its position relative to R
+<sub>0</sub>
+.Semantic or grammatical reorientation regime, Δ (>&lt;). At the macrostructural level, the regime classifies a directional relation between dependent material n and configuration A, represented as: (n > A) = B. At the microstructural level, the corresponding dependent component c is directionally related to C1 relative to R
+<sub>0</sub>
+, represented as: c [+ (R
+<sub>0</sub>
+)] > C1 [+ (R
+<sub>0</sub>
+)] = C2 [ (R
+<sub>0</sub>
++)]. The marker > expresses the directional relation of the dependent component to the configuration. It does not constitute an independent operator: Δ (>&lt;) remains the single active regime.Substitutional regime, Δ (−/+). At the macrostructural level, the regime classifies the correlated elimination of n1 and introduction of n2. At the microstructural level, it specifies the elimination of c1 and the introduction of c2 within the same identified structural position relative to R
+<sub>0</sub>
+.Relational-coupling regime, Δ (>/&lt;). At the macrostructural level, the regime records the stabilization of a functional relation between already constituted units. At the microstructural level, it specifies the corresponding internal relational configuration without treating the relation as the integration, elimination, or substitution of structural material.Reductive regime, Δ (−). At the macrostructural level, the regime classifies the elimination of dependent material n. At the microstructural level, it specifies the eliminated component c and its structural position relative to R
+<sub>0</sub>
+.Transformational-switching regime, Δ (~). At the macrostructural level, the regime classifies a positional reorganization of existing material. At the microstructural level, it specifies the redistribution of internally represented components relative to R
+<sub>0</sub>
+, without the integration, elimination, or substitution of material.Cumulative paradigmatic flexibility regime, Δ (±). At the macrostructural level, the regime records the stabilization of a paradigmatic domain containing correlated realizations of the same structural base. At the microstructural level, it specifies the corresponding series of configurations that share R
+<sub>0</sub>
+while differing through the distribution of dependent grammatical components. Across all eight regimes, the macrostructural formula identifies the type of relational intervention, whereas the microstructural formula specifies its internal structural realization. The transition from macrostructural to microstructural representation therefore adds analytical resolution without introducing a further operator. Δ remains the unique operator of the architecture. The macrostructural and microstructural correspondence rules for the eight regimes are summarized in Appendix B, Figure 5, “Summary of the Eight Operatorial Regimes.”
+</p>
+</sec>
+<sec id="sec3dot11">
+<title>3.11. Status of the Prime and Apostrophe Markers</title>
+<p>The Δ operatorial architecture distinguishes between the prime symbol (′) and the apostrophe markers (“and”). Although these marks are visually related, their function is determined by their position within the formal expression. None of them has operatorial status and none constitutes a value of Δ.</p>
+<p>
+The prime symbol (′), when placed after a configuration or component label, marks an updated or reidentified state within the same operatorial cycle. In expressions such as A′ and C′ [(R
+<sub>0</sub>
++)], it indicates the stabilized result of an intervention affecting a configuration whose relevant identity is retained. In expressions involving c′, it marks the corresponding updated or reidentified structural component. The prime does not itself specify whether the update results from integration, elimination, substitution, relational coupling, or positional reorganization; that classification belongs to the relevant regime of Δ.
+</p>
+<p>
+Apostrophe-marker arrangements distinguish categories of dependent relational material wherever such material is analytically represented. The notation c‘ [(R
+<sub>0</sub>
++)] identifies a preposition, c [‘ (R
+<sub>0</sub>
++)] a possessive article, c [(‘R
+<sub>0</sub>
++)] a definite article, and c′{ [(R
+<sub>0</sub>
++)]} a conjunction. These markers identify the grammatical category and relational function of the represented component. They do not by themselves assign an operatorial regime, perform a transformation, or imply integration, elimination, substitution, relational coupling, or positional reorganization.
+</p>
+<p>
+The internal apostrophe in C [(‘/R
+<sub>0</sub>
++)] and c [(‘R
+<sub>0</sub>
++)] illustrates the relation between a dependent relational component and a configuration. In c [ (‘R
+<sub>0</sub>
++)], the marker identifies a dependent component in relational function. When that component is functionally associated with a configuration represented by C, it is no longer represented as an independent c-element in the stabilized result; its apostrophe marker becomes part of the notation of C. The resulting expression C’{‘ [‘ (‘/R
+<sub>0</sub>
++)]} records the relationally unified configuration. This notation does not indicate the elimination, replacement, or material transformation of c into C, but the functional incorporation of the relational component within the stabilized configuration.
+</p>
+<p>
+In the positional reorganization regime Δ (~), apostrophe markers retain their relational specification while the relevant material is redistributed. The numerical prefix distinguishes successive states of the affected component, as in the dedicated templates 1c [~’ (R
+<sub>0</sub>
++)~] and 2c [‘ (R
+<sub>0</sub>
++)]. The sign ~ identifies positional reorganization itself; the apostrophe markers distinguish the relevant relational specification before and after redistribution and do not constitute independent operators.
+</p>
+<p>The prime and apostrophe markers must therefore be interpreted according to their formal environment. The prime (′) marks an updated or reidentified state of a configuration or component. Apostrophe markers identify the relational category or relational specification of a dependent component and, where applicable, of a relationally unified configuration. None of these markers independently performs a transformation.</p>
+</sec>
+</sec>
+<sec id="sec4">
+<title>4. Operatorial Regimes of Δ</title>
+<p>The general operator Δ is unique and abstract. Its indicators, Δ (→), Δ (+), Δ (>&lt;), Δ (−/+), Δ (>/&lt;), Δ (−), Δ (~), and Δ (±), identify distinct types of structural intervention within the same formal architecture; they do not constitute independent operators.</p>
+<p>
+The regimes are represented through coordinated macrostructural and microstructural formulas. Macrostructural formulas record stabilized relations between configurations using symbols such as A, B, C, and n, without specifying their internal organization. Microstructural formulas specify the relational nucleus R
+<sub>0</sub>
+, the dependent components c, and, where relevant, their positions relative to R
+<sub>0</sub>
+. General formulas define the structural conditions of a regime, whereas particularized formulas apply those conditions to a specific linguistic configuration.
+</p>
+<sec id="sec4dot1">
+<title>4.1. Directional Regime, Δ (→)</title>
+<p>The directional regime, Δ (→), marks an oriented correspondence between configurations: it identifies the initial configuration and the target toward which the relation is directed. It operates at the relational level and does not classify an internal material operation. Unlike the other regimes, which classify interventions on structural material or on a paradigmatic domain, Δ (→) does not assert that material has been added, eliminated, replaced, redistributed, or coupled, or that its position has changed.</p>
+<p>
+Δ (→) applies only when the relation between an initial and a target configuration is explicitly ordered; the fact that two forms differ is not sufficient. At the macrostructural level, the relation is represented as A → A′, where A is the initial configuration and A′ the target. At the microstructural level, it is represented as 1C [ (R
+<sub>0</sub>
++)] → 2C [ (R
+<sub>0</sub>
++)], with the arrow marking the ordered relation between two internally specified configurations. If the diagnostic in Section 3.6 is satisfied, R
+<sub>0</sub>
+remains constant across the correspondence; otherwise, the target requires a new R
+<sub>0</sub>
+and the beginning of a new operatorial cycle.
+</p>
+<p>When an internal material operation is also analyzed, it must receive a separate classification and representation—for example, Δ (+), Δ (−), or Δ (−/+). The directional relation and the executional intervention must not be treated as simultaneous classifications within the same formal expression. Accordingly, Δ (→) does not apply when no direction is established, when the claim concerns only an internal operation, or when the arrow substitutes for an analysis of that operation.</p>
+<p>
+The Romanian relation zi → zile illustrates the directional correspondence between singular and plural forms of the same lexical unit ([
+<xref ref-type="bibr" rid="B20">20</xref>
+]). Δ (→) represents their relation without determining how the plural material is realized. If that material contribution is analyzed separately, it may be classified as an additive intervention, provided that no pre-existing material is eliminated or replaced in the same structural position.
+</p>
+<p>
+The relation casă → case illustrates this distinction ([
+<xref ref-type="bibr" rid="B16">16</xref>
+]). It can be represented directionally, but Δ (→) alone does not classify its internal modification: because -ă is eliminated and -e introduced in the same identified position, the executional intervention is classified as Δ (−/+).
+</p>
+<p>Appendix B 4.1,“Visual Illustration of the Δ (→) Directional Regime,” illustrates the oriented relation and its separation from executional classification.</p>
+</sec>
+<sec id="sec4dot2">
+<title>4.2. Additive Regime, Δ (+)</title>
+<p>The additive regime, Δ (+), marks the extension of a linguistic configuration through the integration of grammatical or lexical material. It applies to derivational and inflectional formations in which identifiable dependent material becomes part of an existing configuration. It does not cover the merely functional association of already constituted autonomous units, which falls under Δ (>/&lt;).</p>
+<p>Δ (+) applies at the executional level. The material must be identifiable as an addition to the configuration, and the resulting configuration must retain any pre-existing material in the same structural position. Greater length alone is not sufficient: the added material and its integration must be represented in the formula. If material is eliminated, the relevant regime is Δ (−); if it is eliminated and replaced in the same position, the regime is Δ (−/+); and if the material inventory remains unchanged while its position shifts, the regime is Δ (~). When integration also produces an explicitly identified semantic or grammatical reorientation relative to a lexical configuration, Δ (>&lt;) may classify that reorientation at the semantic-relational level, while Δ (+) classifies the integration itself.</p>
+<p>At the macrostructural level, the relation is represented as A + n = A′. Here, A is the initial configuration, n the dependent material integrated through Δ (+), and A′ the resulting stabilized configuration. The formula identifies the active regime without specifying the material’s position within the configuration.</p>
+<p>
+At the microstructural level, the relation is represented as 1C [(R
+<sub>0</sub>
++)] + c [(R
+<sub>0</sub>
+)+] = 2C [(R
+<sub>0</sub>
++)]. C designates the structural configuration of the lexical unit, and the numerical markers indicate its states before and after the intervention. R
+<sub>0</sub>
+is the stable relational nucleus, while c [(R
+<sub>0</sub>
+)+] represents the integrated suffixal component. The plus sign between the configuration and the dependent component marks their structural association. Within C [(R
+<sub>0</sub>
++)], it marks the activated relational nucleus; in c [(R
+<sub>0</sub>
+)+], its position identifies suffixal material. The equals sign marks the stabilization of the resulting configuration.
+</p>
+<p>
+The Romanian relation merg → mergeam ([
+<xref ref-type="bibr" rid="B18">18</xref>
+]) illustrates Δ (+): inflectional material is integrated into the verbal configuration, with no pre-existing material eliminated, replaced, or repositioned in the same identified structural position. By contrast, casă → case ([
+<xref ref-type="bibr" rid="B16">16</xref>
+]) is not additive under this analysis. The final -ă is eliminated and replaced by -e in the same position, so the intervention is classified as Δ (−/+).
+</p>
+<p>Affixation, derivation, and compounding fall under Δ(+) only when material is integrated into a new lexical unit; the regime does not cover the syntagmatic coupling of autonomous units. Appendix B, Figure 8, “Visual Illustration of the Δ(+) Additive Operatorial Regime,” illustrates this regime; Appendix A, Section A.4.2, “Δ(+) Additive Regime – Illustrative Analysis,” provides the detailed macrostructural and microstructural analysis of Romanian merg → mergeam.</p>
+</sec>
+<sec id="sec4dot3">
+<title>4.3. Directional Semantic Redistribution, Δ (>&lt;)</title>
+<p>
+Directional semantic redistribution, marked by Δ (>&lt;), describes a semantic or grammatical reorientation associated with a configuration whose relational nucleus R
+<sub>0</sub>
+remains identifiable. It applies when dependent material is directionally related to a lexical configuration and that relation produces a stabilized change in semantic or grammatical interpretation. Thus, the presence of dependent material or a semantic difference alone is insufficient: the reorientation must be explicitly identified relative to the same R
+<sub>0</sub>
+. If the diagnostic in Section 3.6 does not permit R
+<sub>0</sub>
+to be retained, the relation requires a new operatorial cycle.
+</p>
+<p>Δ (>&lt;) differs from Δ (→), which records an oriented correspondence without specifying semantic or grammatical reorientation. In cases such as trust → distrust, the reorientation may be oppositional and may also be represented graphically as &lt;> to foreground that opposition. This notation does not establish a separate regime or operatorial value; the classification remains Δ (>&lt;).</p>
+<p>The regime does not cover the functional association of already constituted units. For example, the relation between a Greek definite article and a noun within a definite nominal configuration falls under Δ (>/&lt;), not Δ (→) or Δ (>&lt;). Δ (>&lt;) is also excluded when the analysis concerns only the addition, elimination, substitution, relational coupling, or positional reorganization of material without an explicitly identified semantic or grammatical reorientation.</p>
+<p>At the macrostructural level, the relation is represented as (n > A) = B. Here, n is dependent material directionally related to the lexical base A, and B is the resulting stabilized configuration. The sign > indicates the directional relation between n and A; it is not an additional operator, since the relation is classified through Δ (>&lt;).</p>
+<p>
+At the microstructural level, the corresponding relation is represented as c [+ (R
+<sub>0</sub>
+)] > C1 [+ (R
+<sub>0</sub>
+)] = C2 [(R
+<sub>0</sub>
++)]. The component c [+ (R
+<sub>0</sub>
+)] represents dependent prefixal material; C1 identifies the lexical configuration associated with the initial base, and C2 the resulting configuration. Here, > specifies the directional distribution of the dependent component relative to R
+<sub>0</sub>
+. C1 and C2 mark correlated microstructural configurations, not successive phases of one configuration, grammatical values, or distinct operators. Infixal and suffixal material are represented as c [(+R
+<sub>0</sub>
+)] and c [(R
+<sub>0</sub>
+)+], respectively.
+</p>
+<p>
+The relation trust → distrust illustrates the regime. At the macrostructural level, n corresponds to the prefix dis-, A to the lexical base trust, and B to the resulting configuration distrust. At the microstructural level, c [+(R
+<sub>0</sub>
+)] represents dis-, C1 [+(R
+<sub>0</sub>
+)] the configuration associated with trust, and C2 [(R
+<sub>0</sub>
++)] the resulting configuration. The prefix is directionally related to the base and produces a negative semantic reorientation while the lexical root remains identifiable.
+</p>
+<p>
+The Romanian relation urs → ursoaică ([
+<xref ref-type="bibr" rid="B19">19</xref>
+]) may also fall under Δ (>&lt;) if the suffixal material is represented as directionally related to the lexical base and the resulting configuration has an explicitly identified feminine lexical or grammatical reorientation. In that analysis, the suffixal component is represented as c [(R
+<sub>0</sub>
+)+]; classification depends on the reorientation and on retaining the relevant R
+<sub>0</sub>
+.
+</p>
+<p>Δ (>&lt;) provides a comparative description of directional semantic or grammatical reorientation. It does not replace framework-specific accounts of derivation, feature realization, Vocabulary Insertion, paradigmatic realization, or lexical semantics. Appendix B.4.3, “Visual Illustration of the Δ (>&lt;) Directional Semantic Redistribution Regime,” illustrates the regime.</p>
+</sec>
+<sec id="sec4dot4">
+<title>4.4. Substitutional Regime, Δ (−/+)</title>
+<p>The substitutional regime, Δ (−/+), classifies a single executional intervention in which formally identifiable material is eliminated and replaced by another component in the same identified structural position. Although its notation contains both − and +, the regime does not represent a sequence of Δ (−) followed by Δ (+): such a sequence would allow an intermediate configuration between elimination and integration, whereas Δ (−/+) represents the two changes as one correlated intervention.</p>
+<p>
+The regime’s necessary condition is that both the eliminated component and its substitute be identified in the same structural position. Its sufficient condition is that they be represented as correlated within one intervention and that the diagnostic in Section 3.6 permit R
+<sub>0</sub>
+to remain continuous. A difference between forms, or the disappearance of one segment alongside the appearance of another, is not enough unless this positional replacement is established. Simple addition falls under Δ (+), isolated elimination under Δ (−), and positional reorganization without replacement under Δ (~).
+</p>
+<p>
+At the macrostructural level, the relation is represented as A (−n
+<sub>1</sub>
++ n
+<sub>2</sub>
+) = A′, where A is the initial configuration, n
+<sub>1</sub>
+the material eliminated, n
+<sub>2</sub>
+its substitute, and A′ the resulting stabilized configuration. This classifies the intervention as Δ (−/+) at the executional level without specifying the components’ internal position.
+</p>
+<p>
+At the microstructural level, the relation is represented as 1C [(R
+<sub>0</sub>
+)−/+]{−c
+<sub>1</sub>
+[(R
+<sub>0</sub>
+)+] + c
+<sub>2</sub>
+[(R
+<sub>0</sub>
+)+]} = 2C [(R
+<sub>0</sub>
++)]. Here, c
+<sub>1</sub>
+is the eliminated suffixal material, c
+<sub>2</sub>
+the substitute introduced in the same position, and R
+<sub>0</sub>
+remains constant. The notation C [(R
+<sub>0</sub>
+)−/+] specifies that the correlated substitution concerns suffixal material. For prefixal or infixal replacement, the initial configurations are represented as 1C [−/+ (R
+<sub>0</sub>
+)] or 1C [(−/+R
+<sub>0</sub>
+)], respectively, with the corresponding components represented as c [+ (R
+<sub>0</sub>
+)] or c [ (+R
+<sub>0</sub>
+)], in accordance with the convention established in Section 3.9.
+</p>
+<p>
+The relation casă → case ([
+<xref ref-type="bibr" rid="B16">16</xref>
+]), represented as casă (−ă + e) = case, illustrates integrated substitution: final -ă is eliminated and -e introduced in the same position, while the base cas- and the relevant structural relation remain identifiable. Since the diagnostic permits R
+<sub>0</sub>
+to remain constant, the relation is classified as Δ (−/+), rather than as simple addition or elimination. A directional relation between casă and case may be represented separately, but it records the orientation of the correspondence; it does not replace the substitutional classification or combine with it in the same formal expression.
+</p>
+<p>
+The regime excludes cases of addition alone, elimination alone, or repositioning of an unchanged material inventory. It also excludes relations that cannot be analyzed as modifications of dependent material associated with the same R
+<sub>0</sub>
+. Suppletive relations such as go → went ([
+<xref ref-type="bibr" rid="B35">35</xref>
+]) are therefore not ordinary instances of Δ (−/+), because they do not meet the continuity conditions for R
+<sub>0</sub>
+. The regime covers morphological substitution and alternation only when formal material is replaced in the same structural position while R
+<sub>0</sub>
+remains continuous. Appendix B, Figure 10, “Visual Illustration of the Δ(−/+) Substitutional Regime,” illustrates this classification; Appendix A, Section A.4.4, “Δ(−/+) Substitutional Regime – Illustrative Analysis,” provides the detailed macrostructural and microstructural analysis of Romanian casă → case.
+</p>
+</sec>
+<sec id="sec4dot5">
+<title>4.5. Relational Coupling, Δ (>/&lt;)</title>
+<p>The relational coupling regime, Δ (>/&lt;), establishes a functional relation between linguistic units or components that are already constituted. It applies at the relational or syntagmatic level, whether a dependent grammatical component is associated with a lexical base or autonomous units are functionally related within a syntagmatic structure. The resulting configuration may be unified syntagmatically, but the relation leaves the internal structure of its participants unchanged: neither component is absorbed into the other, transformed, or made into a new lexical unit.</p>
+<p>The necessary condition for Δ (>/&lt;) is that two already constituted units or components enter into a functional relation. For the regime to apply, that relation must be representable without changing the internal structural inventory of either participant. The intervention is therefore relational; it does not integrate material, eliminate or substitute it, or reorganize its internal position.</p>
+<p>At the macrostructural level, the relation is represented as n >/&lt; A = n / A, where n is the dependent grammatical component and A the autonomous linguistic unit. The notation >/&lt; classifies the coupling, while the slash in n / A records the resulting relation; it does not perform the coupling.</p>
+<p>
+At the microstructural level, the relation is represented as c [ (‘R
+<sub>0</sub>
++)] >/&lt; C [(R
+<sub>0</sub>
++)] = C [ (‘/R
+<sub>0</sub>
++)]. Here, c [ (‘R
+<sub>0</sub>
++)] designates the dependent component in its relational function, C [(R
+<sub>0</sub>
++)] the base structure, and C [ (‘/R
+<sub>0</sub>
++)] the resulting relationally unified structure. The relation >/&lt; marks the functional association of the dependent component with the base, rather than its integration as structural material into C, and R
+<sub>0</sub>
+remains constant. Section 3.11 defines the relational specification represented by c [ (‘R
+<sub>0</sub>
++)] and C [ (‘/R
+<sub>0</sub>
++)].
+</p>
+<p>
+Greek ο άντρας illustrates the analysis: ο >/&lt; άντρας = ο άντρας represents the definite article ο as a dependent determiner of άντρας, which remains the lexical base. Their functional relation forms a determiner-noun configuration without modifying the internal material of either unit ([
+<xref ref-type="bibr" rid="B6">6</xref>
+]).
+</p>
+<p>Δ (>/&lt;) does not apply when a component is integrated as formal material into a lexical structure (Δ (+)), when material is eliminated (Δ (−)), when one component replaces another in the same position (Δ (−/+)), or when an unchanged material inventory is repositioned (Δ (~)). For example, trust → distrust is not relational coupling: dis- is integrated into the lexical structure rather than functionally associated with an autonomous unit.</p>
+<p>The regime thus covers syntagmatic relations between independently represented units, including determiner-noun constructions and other functional combinations that leave the units internally unchanged. Appendix B, Figure 11, “Visual Illustration of the Δ(>/&lt;) Relational Coupling Regime,” illustrates this analysis; Appendix A, Section A.4.5, “Δ(>/&lt;) Relational Coupling Determiner-Noun Configuration-Illustrative Analysis,” provides the detailed macrostructural and microstructural analysis of the Greek example ο άντρας.</p>
+</sec>
+<sec id="sec4dot6">
+<title>4.6. Reductive Regime (−)</title>
+<p>
+The reductive regime, Δ (−), classifies the controlled removal of identifiable dependent material from a stabilized linguistic configuration. It applies at the executional level when the removed material can be identified, no substitute is introduced, the remaining material is not positionally reorganized, and the diagnostic in Section 3.6 permits R
+<sub>0</sub>
+to remain continuous.
+</p>
+<p>These conditions distinguish Δ (−) from Δ (+), which classifies integration; Δ (−/+), which classifies replacement in the same position; and Δ (~), which classifies positional redistribution of an unchanged material inventory. A directional relation between the initial and reduced configurations may also be represented, but Δ (→) does not classify or replace the executional intervention.</p>
+<p>At the macrostructural level, the relation is represented as 1A − n = 2A, where 1A is the initial configuration, n the dependent material removed, and 2A the resulting stabilized configuration. This formula identifies the active regime without specifying the position of the eliminated material.</p>
+<p>
+At the microstructural level, the relation is represented as 1C [(R
+<sub>0</sub>
++)] − c₁ [+ (R
+<sub>0</sub>
+)] = 2C [(R
+<sub>0</sub>
++)]. Here, c₁ identifies the eliminated component, and c₁ [+ (R
+<sub>0</sub>
+)] specifies its prefixal position relative to R
+<sub>0</sub>
+. The formula locates the elimination within the configuration while representing R
+<sub>0</sub>
+as continuous.
+</p>
+<p>
+The attested Greek relation αγελάδα → γελάδα illustrates Δ (−): the initial unstressed vowel α- is lost in the formation of γελάδα ([
+<xref ref-type="bibr" rid="B29">29</xref>
+]). In this analysis, α- is treated as dependent material in a prefixal position; the remaining material stays unchanged, and R
+<sub>0</sub>
+remains identifiable. Because no substitute is introduced and no remaining component is repositioned, the relation meets the conditions for Δ (−).
+</p>
+<p>
+If R
+<sub>0</sub>
+cannot be retained, the change cannot be analyzed as the removal of dependent material within the same configuration; it requires a new R
+<sub>0</sub>
+and the beginning of a new operatorial cycle. More generally, Δ (−) covers formal reduction, including segmental loss such as elision and aphaeresis ([
+<xref ref-type="bibr" rid="B14">14</xref>
+]), when the regime’s defining conditions are met. Appendix B, Figure 12, “Visual Illustration of the Δ(−) Reductive Regime,” illustrates this classification; Appendix A, Section A.4.6, “Δ(−) Reductive Regime – Illustrative Analysis,” provides the detailed macrostructural and microstructural analysis of the Greek relation αγελάδα → γελάδα.
+</p>
+</sec>
+<sec id="sec4dot7">
+<title>4.7. Transformational Switching, Δ (~)</title>
+<p>
+The transformational switching regime, Δ (~), classifies the positional reorganization of material already present within a linguistic configuration. It applies at the executional level when the positions of identifiable components change, their material identity is preserved, the inventory remains unchanged, and the diagnostic in Section 3.6 permits R
+<sub>0</sub>
+to remain continuous. No material is integrated, eliminated, or substituted.
+</p>
+<p>
+The regime includes two types of positional reorganization. In functional positional reorganization, the change in position produces an updated grammatical or semantic function, which must be explicitly identified; positional difference alone is insufficient. In non-functional positional reorganization, the components change position without any change in their grammatical or semantic function. When empirical evidence supports such an analysis, this second type may correspond to metathesis or structural permutation ([
+<xref ref-type="bibr" rid="B3">3</xref>
+]).
+</p>
+<p>Δ (~) does not apply when the relation involves integration (Δ (+)), elimination (Δ (−)), substitution (Δ (−/+)), or the functional coupling of independently constituted units (Δ (>/&lt;)). Those cases involve a change other than the positional redistribution of an unchanged inventory.</p>
+<p>
+At the macrostructural level, the general relation is represented as 1A (n
+<sub>1</sub>
+~ n
+<sub>2</sub>
+) = 2A (n
+<sub>2</sub>
+~n
+<sub>1</sub>
+). Here, 1A is the initial configuration, n
+<sub>1</sub>
+and n₂ are the components whose relative positions change, and 2A is the resulting stabilized configuration. The expressions n
+<sub>1</sub>
+~n
+<sub>2</sub>
+and n
+<sub>2</sub>
+~n
+<sub>1</sub>
+show their relative positions before and after reorganization; neither introduces an additional operator. The reorganization itself is classified as Δ (~).
+</p>
+<p>
+The general microstructural representation is 1C [(R
+<sub>0</sub>
++)] {c
+<sub>1</sub>
+[+ (R
+<sub>0</sub>
+)] ~ c
+<sub>2</sub>
+[(R
+<sub>0</sub>
+)+]} = 2C [(R
+<sub>0</sub>
++)]{c
+<sub>2</sub>
+[+ (R
+<sub>0</sub>
+)] ~ c
+<sub>1</sub>
+[(R
+<sub>0</sub>
+)+]}. Uppercase 1-2C represents the complete configuration before and after reorganization, while c
+<sub>1</sub>
+and c
+<sub>2</sub>
+identify the dependent components whose relative positions are reversed. In keeping with the convention in Section 3.9, c [+ (R
+<sub>0</sub>
+)], c [ (+R
+<sub>0</sub>
+)], and c [(R
+<sub>0</sub>
+)+] represent prefixal, infixal, and suffixal material, respectively. Δ (~) classifies the change in position; the notation itself does not determine which position is involved.
+</p>
+<p>
+The pair la ~ al uses two independently attested Romanian forms ([
+<xref ref-type="bibr" rid="B15">15</xref>
+], [
+<xref ref-type="bibr" rid="B17">17</xref>
+]), but their correspondence here is a constructed, non-empirical illustration of the model’s permutation notation. It shows the reversal of the linear order of the material ⟨l, a⟩ without adding, eliminating, or replacing either element. It does not claim that one form is derived from the other, synchronically or historically, and it does not establish continuity of R
+<sub>0</sub>
+between their lexical and grammatical values. Its purpose is limited to illustrating formal positional permutation; applying Δ (~) to empirical data would require independent evidence that R
+<sub>0</sub>
+remains continuous and the material inventory is preserved.
+</p>
+<p>
+For this constructed illustration, the macrostructural representation remains 1A (n
+<sub>1</sub>
+~n
+<sub>2</sub>
+) = 2A (n
+<sub>2</sub>
+~n
+<sub>1</sub>
+): 1A represents la, with n
+<sub>1</sub>
+and n
+<sub>2</sub>
+ordered as ⟨l, a⟩, while 2A represents al, with the same material in reverse order. At the component level, Figure 13 in Appendix B represents the relation as 1c‘ [(R
+<sub>0</sub>
++)]{c
+<sub>1</sub>
+[+ (R
+<sub>0</sub>
+)] ~ c
+<sub>2</sub>
+[(R
+<sub>0</sub>
+)+]} = 2c [‘ (R
+<sub>0</sub>
++)]{c
+<sub>2</sub>
+[+ (R
+<sub>0</sub>
+)] ~ c
+<sub>1</sub>
+[(R
+<sub>0</sub>
+)+]}. This applied notation supplements the general formula using 1C and 2C: lowercase c is used because the illustration tracks the dependent component undergoing reorganization. The indices 1c and 2c mark its successive states, while c
+<sub>1</sub>
+and c
+<sub>2</sub>
+distinguish the two materials whose positions are reversed. The apostrophe markers specify the grammatical category and relational function represented in the illustration; they are not an operator, a prime marker, or an independent transformation.
+</p>
+<p>
+In the initial component-level representation, c₁ [+ (R
+<sub>0</sub>
+)] places c₁ in prefixal position and c
+<sub>2</sub>
+[(R
+<sub>0</sub>
+)+] places c
+<sub>2</sub>
+in suffixal position. In the resulting representation, c
+<sub>2</sub>
+[+ (R
+<sub>0</sub>
+)] is prefixal and c
+<sub>1</sub>
+[(R
+<sub>0</sub>
+)+] suffixal. The notation thus displays the reversal while preserving the identity of both components, R
+<sub>0</sub>
+, and the material inventory. Appendix B, Figure 13, “Visual Illustration of the Δ(~) Positional Reorganization Regime,” illustrates the regime; Appendix A, Section A.4.7, “Δ(~) Positional Reorganization Regime – Constructed Formal Illustration,” explains the constructed Romanian correspondence la ~ al and the attested English alternation ask ~ aks, with their formal representations.
+</p>
+<p>
+An attested example of non-functional positional reorganization is the English alternation ask ~ aks: /s/ and /k/ exchange their relative positions, while the material inventory and lexical meaning remain unchanged ([
+<xref ref-type="bibr" rid="B34">34</xref>
+]). Alongside metathesis and structural permutation, Δ (~) also covers cases where positional redistribution changes a component’s grammatical or semantic function without changing the material inventory.
+</p>
+</sec>
+<sec id="sec4dot8">
+<title>4.8. Cumulative Paradigmatic Flexibility (±)</title>
+<p>
+The cumulative paradigmatic flexibility regime, Δ (±), classifies the stabilization of a paradigmatic domain containing at least three correlated realizations of the same structural base. Across the domain, R
+<sub>0</sub>
+remains constant while dependent grammatical material varies in a controlled manner. Accordingly, Δ (±) applies only when k ≥ 3; it does not classify an isolated transformation or a binary alternation. A relation between two realizations is instead classified by the local intervention involved, such as Δ (−/+) when one dependent component replaces another in the same identified position.
+</p>
+<p>
+At the macrostructural level, the domain is represented as A
+<sub>1</sub>
+, A
+<sub>2</sub>
+, A
+<sub>3</sub>
+, …, A
+<sub>k</sub>
+Δ (±) (n
+<sub>1</sub>
+, n
+<sub>2</sub>
+, n
+<sub>3</sub>
+, …, n
+<sub>k</sub>
+) = X
+<sub>1</sub>
+<sub>−</sub>
+<sub>k</sub>
+, where k ≥ 3. A
+<sub>1</sub>
+– A
+<sub>k</sub>
+are the correlated realizations of the same structural base, n
+<sub>1</sub>
+– n
+<sub>k</sub>
+are the dependent grammatical components through which they differ, and X
+<sub>1</sub>
+<sub>−</sub>
+<sub>k</sub>
+is the stabilized paradigmatic domain. This formula represents the organized variation of dependent material without specifying its position relative to R
+<sub>0</sub>
+.
+</p>
+<p>
+At the microstructural level, the domain is represented as C
+<sub>1</sub>
+[(R
+<sub>0</sub>
++)] {c
+<sub>1</sub>
+[(R
+<sub>0</sub>
+)+]}, C
+<sub>2</sub>
+[(R
+<sub>0</sub>
++)]{c
+<sub>2</sub>
+[(R
+<sub>0</sub>
+)+]}, C
+<sub>3</sub>
+[(R
+<sub>0</sub>
++)]{c
+<sub>3</sub>
+[(R
+<sub>0</sub>
+)+]}, …, C
+<sub>k</sub>
+[(R
+<sub>0</sub>
++)]{c
+<sub>k</sub>
+[(R
+<sub>0</sub>
+)+]} = C
+<sub>1</sub>
+–
+<sub>k</sub>
+[(R
+<sub>0</sub>
+)±]. Each configuration shares the same R
+<sub>0</sub>
+, while c
+<sub>1</sub>
+– c
+<sub>k</sub>
+identify the varying dependent components. The resulting C
+<sub>1</sub>
+<sub>−</sub>
+<sub>k</sub>
+[(R
+<sub>0</sub>
+)±] represents their stabilized paradigmatic domain: ± marks controlled variation around R
+<sub>0</sub>
+, without modifying the nucleus or introducing another operator. The suffixal form is c [(R
+<sub>0</sub>
+)+]; prefixal and infixal material are represented as c [+ (R
+<sub>0</sub>
+)] and c [(+R
+<sub>0</sub>
+)], respectively.
+</p>
+<p>
+The forms C [(R
+<sub>0</sub>
+)−/+], C [−/+ (R
+<sub>0</sub>
+)], and C [(−/+R
+<sub>0</sub>
+)] specify the substitutional status and position of dependent material in an initial microstructural configuration: suffixal, prefixal, and infixal, respectively. They do not denote additional operators or independent transformations. These positional distinctions are not represented at the macrostructural level.
+</p>
+<p>
+The difference between macrostructural X
+<sub>1 − k</sub>
+and microstructural C
+<sub>1 − k</sub>
+[(R
+<sub>0</sub>
+)±] reflects the distinct work done by each level. X
+<sub>1 − k</sub>
+names the higher-order domain formed by correlating A
+<sub>1</sub>
+– A
+<sub>k</sub>
+, so it may use a different letter from the individual configurations. The microstructural representation retains C because it continues to describe configurations organized around the same R
+<sub>0</sub>
+; it does not imply a change in either their representational category or their relational nucleus.
+</p>
+<p>
+The Greek forms γράφω, γράφεις, γράφει, γράφουμε, γράφετε, γράφουν form a present-tense paradigm in which the lexical base γράφ- remains constant while suffixal material varies with person and number ([
+<xref ref-type="bibr" rid="B7">7</xref>
+]). In abbreviated form, the domain is represented as γράφ (±n), c [(R
+<sub>0</sub>
+)±]. At the macrostructural level, the complete representation is A
+<sub>1</sub>
+, A
+<sub>2</sub>
+, A
+<sub>3</sub>
+, A
+<sub>4</sub>
+, A
+<sub>5</sub>
+, A
+<sub>6</sub>
+Δ (±) (n
+<sub>1</sub>
+, n
+<sub>2</sub>
+, n
+<sub>3</sub>
+, n
+<sub>4</sub>
+, n
+<sub>5</sub>
+, n
+<sub>6</sub>
+) = X
+<sub>1</sub>
+<sub>−</sub>
+<sub>6</sub>
+.
+</p>
+<p>
+The condensed microstructural sequence is C
+<sub>1</sub>
+[(R
+<sub>0</sub>
+)−/+] → C
+<sub>2</sub>
+[(R
+<sub>0</sub>
+)−/+] → C
+<sub>3</sub>
+[(R
+<sub>0</sub>
+)−/+] → C
+<sub>4</sub>
+[(R
+<sub>0</sub>
+)−/+] → C
+<sub>5</sub>
+[(R
+<sub>0</sub>
+)−/+] → C
+<sub>6</sub>
+[(R
+<sub>0</sub>
++)] = C
+<sub>1</sub>
+–
+<sub>6</sub>
+[(R
+<sub>0</sub>
+)±]. Here, the arrows show the visual-operational succession of local replacement relations. A single relation stated in full has the form C
+<sub>1</sub>
+[(R
+<sub>0</sub>
+)]{−c
+<sub>1</sub>
+[(R
+<sub>0</sub>
+)+] + c
+<sub>2</sub>
+[(R
+<sub>0</sub>
+)+]} = C
+<sub>2</sub>
+[(R
+<sub>0</sub>
++)], with the macrostructural counterpart A
+<sub>1</sub>
+(−n
+<sub>1</sub>
++ n
+<sub>2</sub>
+) = A
+<sub>2</sub>
+. Each local replacement is classified as Δ (−/+); Δ (±) classifies the stabilized paradigmatic organization of all six correlated realizations.
+</p>
+<p>
+Δ (±) covers morphological paradigms in which grammatical variation is distributed across correlated forms without changing lexical identity ([
+<xref ref-type="bibr" rid="B36">36</xref>
+]; [
+<xref ref-type="bibr" rid="B2">2</xref>
+]). Appendix B.4.8, “Visual Illustration of the Δ (±) Cumulative Paradigmatic Flexibility Regime,” illustrates the regime.
+</p>
+</sec>
+</sec>
+<sec id="sec5">
+<title>5. Methodology</title>
+<sec id="sec5dot1">
+<title>5.1. Design</title>
+<p>The study adopts a theoretical formal model construction design. Its objective is to construct a formal system capable of classifying grammatical transformations through explicitly defined structural criteria. The model is developed deductively from a minimal set of formal assumptions, including the unicity of the operator Δ and the distinction between macrostructural and microstructural levels of analysis.</p>
+<p>The proposed inventory was derived from a comparative examination of recurrent types of structural intervention in the illustrative dataset: oriented correspondence, material integration, semantic or grammatical redistribution associated with integrated material, replacement in the same structural position, relational coupling of already constituted units, reduction, positional reorganization, and paradigmatic variation. The eight regimes are therefore theoretical classifications based on contrastive structural properties, not empirical universals or an exhaustive typology. Their adequacy is assessed through the protocol in Section 5.3 and remains open to revision where a configuration cannot be classified under the stated criteria.</p>
+<p>
+The construction of the model follows a structured procedure consisting of three stages: (i) identification of recurrent patterns of structural intervention, (ii) formalization of these patterns through macrostructural and microstructural representations, and (iii) specification of activation criteria that allow the differentiation of operatorial regimes. Each regime is defined through a distinct structural condition and is delimited from the others by the exclusion of overlapping criteria at the same representational level. The design is oriented toward formal consistency and internal differentiation. This deductive and model-based orientation is consistent with established approaches to theoretical linguistic analysis ([
+<xref ref-type="bibr" rid="B33">33</xref>
+]).
+</p>
+</sec>
+<sec id="sec5dot2">
+<title>5.2. Languages</title>
+<p>The analysis is cross-linguistic and draws on illustrative data from Romanian, English, and Modern Greek. The purpose of this selection is not to provide exhaustive typological coverage or to establish cross-linguistic stability, but to examine the possible applicability of the proposed architecture to structurally distinct linguistic systems.</p>
+<p>The examples were selected because they instantiate the types of structural intervention from which the eight regimes were derived. They are illustrative analytical cases rather than representative samples of language-specific patterns. The data are treated as formally comparable configurations; no independent claims are made regarding historical development, frequency, productivity, or sociolinguistic distribution unless a source is explicitly cited.</p>
+<p>The attested dataset comprises Romanian zi → zile, merg → mergeam, casă → case, and urs → ursoaică; English cat → cats, trust → distrust, and ask ~ aks; and Modern Greek αγελάδα → γελάδα, ο άντρας, and the paradigm γράφω, γράφεις, γράφει, γράφουμε, γράφετε, γράφουν. The languages, forms, glosses, sources, status, reasons for inclusion, analytical levels, and regime assignments are documented in Appendix B, Figure 4, “Status and Selection of Illustrative Configurations.” The corresponding individual regime analyses are illustrated in Appendix B, Figures 7-14.</p>
+<p>The illustration la ~ al is not part of the attested dataset. It is retained only as a constructed formal illustration in Appendix B.4.7, and it is explicitly identified as constructed in Appendix B4. By contrast, the relation αγελάδα → γελάδα is attested and is therefore treated as part of the empirical dataset rather than as a constructed illustration. This distinction prevents the constructed formal example from being treated as a claim about an attested derivational, synchronic, or historical relation.</p>
+<p>
+This approach allows the analysis to remain focused on the identification of structural regularities while keeping the limits of the dataset explicit. It follows the use of comparative concepts in cross- linguistic research, where comparability depends on clearly stated criteria rather than on an assumption that the selected examples constitute a typological sample ([
+<xref ref-type="bibr" rid="B28">28</xref>
+]).
+</p>
+</sec>
+<sec id="sec5dot3">
+<title>5.3. Analysis Protocol</title>
+<p>The analytical protocol provides a formal and explicitly structured method for the classification of transformational phenomena, designed to facilitate consistent application in subsequent analyses. Each configuration is analyzed through a sequence of operations designed to identify the structural nature of the intervention and to assign it to an operatorial regime at the relevant representational level.</p>
+<p>The procedure consists of the following steps:</p>
+<p>Identification of the base configuration at the macrostructural level, where the relation between units is established in declarative form.Formalization of the internal organization at the microstructural level, specifying the distribution of structural material relative to the relational nucleus.Determination of the type of structural intervention involved, such as integration, elimination, substitution, redistribution, positional reorganization, or cumulative paradigmatic flexibility.Verification of the canonical activation condition associated with the corresponding operatorial regime.Delimitation from other regimes through the exclusion of alternative activation criteria.</p>
+<p>At a single representational level, a configuration is assigned to one operatorial regime only if it satisfies that regime’s defining condition without fulfilling the defining condition of another regime at the same level. A phenomenon may nevertheless receive a relational description and an executional description at different representational levels. This distinction prevents overlap between competing classifications within the same analysis while allowing complementary descriptions across levels.</p>
+<p>The protocol is designed to ensure consistent classification across different analytical contexts, including cases in which the same phenomenon may be described at different levels of implementation, by applying a uniform sequence of structural identification and regime assignment. The application of this protocol can be illustrated through a borderline case in which multiple classifications may initially appear possible.</p>
+<p>Application of the Analysis Protocol to a Borderline Case: casă → case.</p>
+<p>
+To make the exclusivity of the operatorial regimes explicit, this section applies the analysis protocol step by step to a borderline case in which multiple classifications may initially appear possible: the alternation casă (“house”) → case (“houses”) ([
+<xref ref-type="bibr" rid="B16">16</xref>
+]).
+</p>
+<p>At the descriptive level, this transformation may appear to be a simple form change associated with plural marking. However, structural analysis shows that the intervention affects the formal material of the base, which requires a classification based on the nature of the intervention rather than on grammatical function.</p>
+<p>
+The analysis protocol begins by identifying the nature of the intervention and proceeds through the systematic testing of potentially competing regimes. The relevant decision rules for regime assignment are summarized in Appendix B, Figure 3, “Decision Rules for Regime Assignment.” The sequential application of these rules, including the decision procedure for retaining or replacing R
+<sub>0</sub>
+, is visualized in Appendix B, Figure 15, “Decision Tree for Retaining or Replacing R
+<sub>0</sub>
+.”
+</p>
+<p>The first test targets the additive regime Δ (+), illustrated in Appendix B, Figure 8. This regime involves the introduction of new material without the elimination of existing material, resulting in an extension of the form. In the case of casă → case, however, the final segment “-ă” is not preserved but eliminated. Therefore, the transformation cannot be classified as Δ (+), since it does not involve simple addition.</p>
+<p>The second test targets the reductive regime Δ (−), illustrated in Appendix B, Figure 12. This regime involves the elimination of material without the introduction of new material. In the analyzed example, although “-ă” is eliminated, the segment “-e” appears simultaneously. Thus, the defining condition of the Δ (−) regime is not satisfied, since the transformation does not consist of simple reduction.</p>
+<p>Unlike the previously excluded regimes, the Δ (−/+) regime satisfies all the structural conditions of the intervention and allows for an explicit representation at both the macro- and microstructural levels. The third test targets this substitutional regime, illustrated in Appendix B, Figure 10, which is characterized by the simultaneous elimination and introduction of material in the same structural position. In the case of casă → case, the segment “-ă” is replaced by “-e” in exactly the same final position, which directly corresponds to the definition of this regime.</p>
+<p>
+At the macrostructural level, the transformation is represented by the formula: 1A (−n1 + n2) = 2A, where 1A corresponds to the lexical form “casă”, n1 identifies the dependent material “-ă” eliminated through the substitutional intervention, n2 identifies the substitutive material “-e” introduced in the same final (suffixal) position, and 2A designates the resulting form “case”. This formula represents the continuity of lexical identity (“cas-”), as established through the R
+<sub>0</sub>
+diagnostic, and shows that the difference between the two forms results from an intervention on dependent material, without altering the lexical unit itself.
+</p>
+<p>
+At the microstructural level, this relation is expressed by the formula: 1C [(R
+<sub>0</sub>
+)-/+]{−c1 [(R
+<sub>0</sub>
+)+] + c2 [(R
+<sub>0</sub>
+)+]} = 2C [(R
+<sub>0</sub>
++)], where 1C [(R
+<sub>0</sub>
+)−/+] corresponds to the initial structure (“casă”), −c1 [(R
+<sub>0</sub>
+)+] represents the elimination of the final segment “-ă”, +c2 [(R
+<sub>0</sub>
+)+] represents the introduction of the segment “-e” in the same structural position, and 2C [(R
+<sub>0</sub>
++)] designates the resulting structure (“case”). This formula expresses a simultaneous substitution carried out in a single operatorial act, corresponding to the Δ (−/+) regime, illustrated in Appendix B, Figure 10, “Visual Illustration of the Δ (−/+) Substitutional Regime.”
+</p>
+<p>Through the systematic application of these tests, the Δ (+) and Δ (−) regimes are excluded on the basis of their defining criteria, while the Δ (−/+) regime remains the only option compatible with the structure of the intervention. This analysis illustrates that, in the examined case, classification is determined by the nature of the structural intervention rather than by its functional interpretation as plural marking.</p>
+<p>This example provides preliminary support for the claim that the explicit application of the analysis protocol can produce a univocal classification in a potentially ambiguous case. Additional borderline cases are required to determine whether the operatorial regimes remain consistently exclusive across a broader range of transformational phenomena. </p>
+<p>
+Applying the protocol to trust → distrust ([
+<xref ref-type="bibr" rid="B32">32</xref>
+]) yields the following result: (a) the macrostructural relation is represented as A + n = A′, where A corresponds to trust, n identifies dis-, and A′ designates distrust; (b) the microstructural representation is 1C [(R
+<sub>0</sub>
++)] + c [+ (R
+<sub>0</sub>
+)] = 2C [(R
+<sub>0</sub>
++)]; (c) the intervention consists in prefixal integration; (d) Δ (+) is activated because dis- is introduced without the elimination or replacement of material in the same position; and (e) Δ (−), Δ (−/+), Δ (~), and Δ (>/&lt;) are excluded at the executional level. The associated semantic reorientation may be described separately through Δ (>&lt;) at the semantic-relational level. The theoretical analysis of these two levels is developed in Sections 4.2 and 4.3.
+</p>
+<p>
+Applying the protocol to go → went ([
+<xref ref-type="bibr" rid="B35">35</xref>
+]) yields a boundary result:
+</p>
+<p>
+(a) the forms are related at the macrostructural level but cannot be treated as successive internally continuous realizations of the same configuration; (b) no microstructural representation preserves the same R
+<sub>0</sub>
+while deriving went through a modification of dependent material; (c) the relation therefore does not instantiate integration, elimination, substitution, redistribution, coupling, positional reorganization, or paradigmatic variation within a continuous configuration; (d) the R
+<sub>0</sub>
+diagnostic fails and requires the identification of a new relational nucleus; and (e) Δ (+), Δ (−), Δ (−/+), Δ (>&lt;), Δ (>/&lt;), Δ (~), and Δ (±) are excluded as internal analyses of the relation. Δ (→) may record the oriented correspondence, but does not classify an internal material operation. The diagnostic is developed in Section 3.6. Its decision procedure is summarized in Appendix B, Figure 2, “Decision Procedure for Retaining or Replacing R
+<sub>0</sub>
+.”
+</p>
+<p>Decision Rules for Regime Assignment:</p>
+<p>
+The analysis first identifies the representational level at which the claim is made. A relational claim concerns the correspondence or functional relation between configurations, whereas an executional claim concerns the internal modification of dependent material. Relational and executional descriptions may both apply to the same phenomenon only when they are stated in separate representations.The analysis then identifies the structural type of intervention. Oriented correspondence activates Δ (→); integration of dependent material activates Δ (+); an explicitly identified semantic or grammatical reorientation associated with dependent material activates Δ (>&lt;); correlated elimination and replacement in the same position activate Δ (−/+); relational coupling of already constituted units activates Δ (>/&lt;); elimination activates Δ (−); positional reorganization of unchanged material activates Δ (~); and cumulative variation across at least three correlated realizations activates Δ (±).Where a configuration presents more than one relevant property, the analysis determines whether those properties are claimed at the same representational level or at distinct levels. A single representational level receives only one regime assignment. Complementary descriptions remain possible only when they concern different levels. Thus, in cat → cats ([
+<xref ref-type="bibr" rid="B31">31</xref>
+]), Δ (+) classifies the executional integration of plural material. In trust → distrust ([
+<xref ref-type="bibr" rid="B32">32</xref>
+]), Δ (+) classifies the executional integration of the prefix dis-, whereas Δ (>&lt;) classifies the semantic-relational reorientation produced by that prefix. These are not competing assignments because they concern distinct representational levels. By contrast, the Greek configuration ο >/&lt; άντρας = ο άντρας ([
+<xref ref-type="bibr" rid="B6">6</xref>
+]) is classified through Δ (>/&lt;), because it concerns the functional relation between already constituted units and does not claim the internal integration of material.The proposed classification is finally tested through exclusion. A regime is retained only when its activation condition is satisfied and the defining conditions of competing regimes at the same representational level are not satisfied. Where no common R
+<sub>0</sub>
+can be retained, the relation is treated as the beginning of a new operatorial cycle rather than as an internal executional transformation. These decision rules are summarized in Appendix B, Figure 3, “Decision Rules for Regime Assignment.”
+</p>
+</sec>
+<sec id="sec5dot4">
+<title>5.4. Illustrative Application of the Δ Architecture: English Regular Plural</title>
+<p>The preceding section described the regular English plural within Distributed Morphology. The present section applies the Δ architecture separately to the relation cat → cats at the selected executional level; it does not reproduce the morphological or phonological derivation.</p>
+<p>
+For the present analysis, the relevant fact is the integration of plural material into the nominal configuration, classified through Δ (+). This classification concerns the structural intervention at the selected representational level. It does not classify the phonological realization of the plural exponent as [s], [z], or [ɪz], or treat their alternation as a series of additive, substitutive, or positional interventions ([
+<xref ref-type="bibr" rid="B21">21</xref>
+]).
+</p>
+<p>At the macrostructural level, the relation is formalized as: A Δ (+n) = A′. Here, A identifies the initial nominal configuration, n the dependent plural material, and A′ the resulting configuration.</p>
+<p>
+At the microstructural level, the corresponding integration is represented as: 1C [(R
+<sub>0</sub>
++)] + c [(R
+<sub>0</sub>
+)+] = 2C [(R
+<sub>0</sub>
++)]. Here, R
+<sub>0</sub>
+remains constant, while c [(R
+<sub>0</sub>
+)+] identifies the integrated dependent plural component. The formulas represent the same executional intervention at coordinated levels of analysis.
+</p>
+<p>This application has a deliberately narrow scope: Distributed Morphology explains how the regular plural exponent is inserted and subsequently realized phonologically. The Δ classification complements that account without replacing it.</p>
+<p>The example also illustrates why regime assignment requires a specified representational level: the present analysis concerns morphological execution, not the phonological surface alternation. The status and executional classification of the English relation cat → cats are documented in Appendix B, Figure 4, “Status and Selection of Illustrative Configurations.”</p>
+</sec>
+</sec>
+<sec id="sec6">
+<title>6. Formal Constraints and Conditions of Revision</title>
+<p>The Δ operatorial architecture establishes internal constraints for the classification of transformational interventions. These constraints derive from the unicity of Δ, the macro-micro distinction, and the activation criteria of the regimes. They govern regime assignment once the representational level and structural type of intervention have been identified; they do not constitute claims about all linguistic systems. The following subsections specify the relevant constraints, conditions of applicability, and conditions of revision.</p>
+<sec id="sec6dot1">
+<title>6.1. Hypothesis of Unique Regime Assignment at the Same Representational Level</title>
+<p>Once its representational level has been specified, a transformational intervention receives one operatorial regime assignment at that level. This hypothesis does not require that a phenomenon receive only one description across all levels of analysis. For example, Δ (→) may record an oriented correspondence at the relational level, while Δ (−/+) classifies substitution at the executional level in a separate representation. These are complementary descriptions, not competing assignments within one formula.</p>
+<p>The hypothesis requires revision if a clearly specified intervention satisfies the defining conditions of two competing regimes at the same representational level. A difference between relational and executional descriptions at distinct levels does not constitute such a case.</p>
+<p>The single-regime condition and its level-specific qualification are summarized in Appendix B, Figure 3, “Decision Rules for Regime Assignment.”</p>
+</sec>
+<sec id="sec6dot2">
+<title>6.2. Macro-Micro Correspondence Constraint</title>
+<p>
+This internal constraint applies whenever the analysis claims an executional intervention within a configuration. The macrostructural formula identifies the type of intervention and the dependent material involved, whereas the microstructural formula specifies the corresponding component, its position relative to R
+<sub>0</sub>
+, and the resulting internally organized configuration. For example, an additive relation represented at the macrostructural level as A Δ (+n) = A′ requires a microstructural representation that identifies the integrated component c and its relation to R
+<sub>0</sub>
+.
+</p>
+<p>The constraint does not require relational formulas, such as Δ (→), to duplicate an executional analysis when no internal material operation is claimed. It requires only that an intervention described as executional at the macrostructural level have a compatible microstructural representation, and that an internal executional modification be expressible through a stabilized macrostructural relation.</p>
+<p>An incompatible observation would be a proposed executional classification whose macrostructural and microstructural formulas cannot be coordinated without changing the identified intervention or redefining the relevant components. In that case, the formula, the classification, or the macro-micro correspondence rule requires revision.</p>
+<p>The macrostructural and microstructural correspondence of the eight regimes is summarized in Appendix B, Figure 5, “Summary of the Eight Operatorial Regimes.”</p>
+</sec>
+<sec id="sec6dot3">
+<title>
+6.3. R
+<sub>0</sub>
+Continuity Constraint
+</title>
+<p>
+This internal constraint applies to relations analyzed within a single operatorial cycle. Where the intervention concerns dependent material while the relational nucleus R
+<sub>0</sub>
+remains identifiable, the relation may be represented through the applicable operatorial regime at the specified representational level. The continuity of R
+<sub>0</sub>
+is therefore a condition for treating the result as a modified realization of the same configuration.
+</p>
+<p>
+The constraint does not state that every formal difference preserves R
+<sub>0</sub>
+. When the diagnostic established in Section 3.6 shows that no common relational nucleus can be retained without an unmotivated redefinition, the resulting form is treated as a distinct configuration requiring a new R
+<sub>0</sub>
+and the initiation of a new operatorial cycle.
+</p>
+<p>
+An incompatible observation would be a relation in which R
+<sub>0</sub>
+must be reidentified while the architecture nevertheless classifies the change as an internal executional intervention within the same cycle. Such a case requires revision of the R
+<sub>0</sub>
+diagnostic, the proposed classification, or the rule governing the initiation of a new operatorial cycle.
+</p>
+<p>
+The diagnostic for retaining or replacing R
+<sub>0</sub>
+is set out in Appendix B, Figure 2, “Decision Procedure for Retaining or Replacing R
+<sub>0</sub>
+.”
+</p>
+</sec>
+<sec id="sec6dot4">
+<title>6.4. Activation Threshold Constraint, Δ (±)</title>
+<p>
+This internal constraint applies to the cumulative paradigmatic flexibility regime Δ (±). The regime is activated only where a structured paradigmatic domain contains at least three correlated and structurally analysable realizations sharing the same R
+<sub>0</sub>
+. The threshold k ≥ 3 is a formal convention of the present architecture, not a universal empirical limit. Its function is to distinguish a paradigmatic domain from an isolated transformation or binary alternation, which require analysis through the specific local intervention involved.
+</p>
+<p>For the purposes of this constraint, k counts the distinct structurally analysable realizations that constitute the correlated paradigmatic domain. The identification of such realizations is therefore determined by their formal representation within the architecture rather than by the mere number of paradigmatic positions considered.</p>
+<p>
+An incompatible observation would be a proposed Δ (±) domain containing fewer than three correlated realizations or lacking a common R
+<sub>0</sub>
+. Such a case requires reclassification as a local intervention or revision of the threshold convention.
+</p>
+<p>The activation threshold for Δ (±) and its exclusion of isolated or binary relations are summarized in Appendix B, Figure 5, “Summary of the Eight Operatorial Regimes.”</p>
+</sec>
+<sec id="sec6dot5">
+<title>6.5. Relational Non-Interference Constraint, Δ (>/&lt;)</title>
+<p>This internal constraint applies where Δ (>/&lt;) is used to describe the stabilization of a functional relation between already constituted units. In a single relational formula, the regime does not classify the integration, elimination, substitution, or positional reorganization of the internal material of those units. Such material interventions require an executional regime.</p>
+<p>The constraint does not prohibit a phenomenon from receiving both a relational and an executional description at different representational levels. It requires only that Δ (>/&lt;) not be combined with an executional regime as competing classifications of the same formula and at the same level of representation.</p>
+<p>An incompatible observation would be a formula in which Δ (>/&lt;) is assigned to a relation while the same formula also claims an internal material intervention without distinguishing a separate executional representation. Such a case requires revision of the formula or of the assigned regime. The non-interference of relational coupling and executional classifications at the same representational level is summarized in Appendix B, Figure 3, “Decision Rules for Regime Assignment.”</p>
+</sec>
+<sec id="sec6dot6">
+<title>6.6. Conditions for Cross-Linguistic Applicability</title>
+<p>The Δ architecture proposes that its regime definitions may be applied comparatively to structurally described interventions in different languages. This is a proposed condition of applicability, not an established claim of cross-linguistic stability. The selected examples show only that the proposed criteria can be used within a limited illustrative dataset.</p>
+<p>Cross-linguistic applicability requires further assessment with typologically broader data and independent analyses. A relevant challenge would arise if structurally comparable interventions, described at the same representational level, repeatedly required incompatible regime assignments solely because of language-specific structural properties. Such a result would require revision of the relevant activation criterion, the level distinction, or the proposed inventory of regimes.</p>
+<p>The languages and illustrative configurations included in this limited dataset are documented in Appendix B, Figure 4, “Status and Selection of Illustrative Configurations.”</p>
+</sec>
+<sec id="sec6dot7">
+<title>6.7. Conditions of Revision</title>
+<p>Revision is required when a phenomenon cannot be assigned to a regime under the stated criteria or when the unique-regime condition specified in Section 6.1 fails; the relevant activation condition, level distinction, or regime inventory must then be reconsidered. The absence of an identified case requiring revision does not confirm the model; further independent applications are needed to assess the scope and consistency of the proposed classifications.</p>
+</sec>
+<sec id="sec6dot8">
+<title>6.8. Structural Exclusions and Conditions of Revision</title>
+<p>The Δ operatorial architecture imposes internal limits derived from its definitions, identifying combinations that the present formal system does not classify within a single representation. This does not constitute a negative typological prediction about all languages.</p>
+<p>At a given representational level, competing regime assignments are excluded. The specific exclusions for each regime are summarized in Sections 4.1-4.8. Complementary relational and executional descriptions remain possible only when they are stated in separate representations and concern distinct levels.</p>
+<p>
+An internal executional relation requires continuity of R
+<sub>0</sub>
+. Where the diagnostic in Section 3.6 requires a new R
+<sub>0</sub>
+, the result begins a new operatorial cycle rather than constituting an internal transformation. Δ (±) applies only to a domain containing at least three correlated realizations, as specified in Section 6.4. Δ (>/&lt;) applies only where no internal material intervention is claimed in the same formula; an intervention affecting material requires a separate executional representation. A configuration that cannot be treated under these conditions invokes the revision procedure specified in Section 6.7.
+</p>
+</sec>
+<sec id="sec6dot9">
+<title>6.9. Boundary Cases and Conditions of Revision</title>
+<p>
+The examples go → went and la ~ al mark distinct limits of the present architecture. In go → went, no common R
+<sub>0</sub>
+can be retained without redefining the lexical relation. The result is therefore treated as the beginning of a new operatorial cycle rather than as an internal executional transformation.
+</p>
+<p>
+he diagnostic governing this result is set out in Appendix B, Figure 2, “Decision Procedure for Retaining or Replacing R
+<sub>0</sub>
+.”
+</p>
+<p>
+The constructed correspondence la ~ al visualizes the formal possibility of positional permutation, but it does not establish an attested derivational, synchronic, or historical relation in Romanian. It cannot support a linguistic classification through Δ (~) unless continuity of R
+<sub>0</sub>
+and preservation of the material inventory are independently established. The constructed formal illustration is provided in Appendix B, Figure 13, “Visual Illustration of the Δ(~) Positional Reorganization Regime.”
+</p>
+<p>These cases delimit the scope of the current criteria; if comparable attested cases cannot be treated under those conditions, the conditions of revision specified in Section 6.7 apply.</p>
+</sec>
+</sec>
+<sec id="sec7">
+<title>7. Extended Case Study: urs → ursoaică</title>
+<p>
+This section applies the analytical protocol to the Romanian relation urs → ursoaică ([
+<xref ref-type="bibr" rid="B19">19</xref>
+]) as a boundary case for the proposed architecture. The relation involves suffixal dependent material directionally related to an identifiable lexical base and an associated semantic and grammatical reorientation. It therefore tests whether Δ (>&lt;) can classify the directional relation between dependent material and a lexical configuration while R
+<sub>0</sub>
+remains identifiable.
+</p>
+<p>
+The analysis treats the relation at two distinct representational levels. At the executional level, the suffixal material -oaică is integrated into the lexical base urs and is classified through Δ (+). At the semantic-relational level, the suffixal material is directionally related to the base and produces an explicitly identifiable feminine lexical and grammatical reorientation; this relation is classified through Δ (>&lt;). These are complementary classifications at distinct levels, not competing assignments within one representation. The analysis therefore tests the activation conditions of both regimes and the retention of R
+<sub>0</sub>
+. The source, status, and dual-level classification of the relation urs → ursoaică are documented in Appendix B, Figure 4, “Status and Selection of Illustrative Configurations.”
+</p>
+<p>Three stages organize the case study: description of the empirical relation and its structural segmentation; comparison with the explanatory perspectives of selected theoretical frameworks; and formalization within the Δ architecture. Unless a source is cited for a specific analysis of this exact relation, framework-specific characterizations are comparative reconstructions based on the general commitments of the respective approaches.</p>
+<sec id="sec7dot1">
+<title>7.1. The Empirical Phenomenon</title>
+<p>The Romanian relation urs → ursoaică is examined as a case in which suffixal dependent material is directionally related to a lexical base and produces a semantic and grammatical reorientation. Urs denotes a male bear, whereas ursoaică denotes a female bear. For the purposes of the present analysis, the base urs remains identifiable in the resulting form, while the sequence -oaică constitutes dependent material absent from the initial configuration. The source, gloss, and analytical classification of this example are provided in Appendix B4, “Status and Selection of Illustrative Configurations.”</p>
+<p>
+The presence of the suffixal material -oaică supports an executional classification through Δ (+), because the material is integrated into the lexical base urs without the elimination or replacement of pre-existing material. At the semantic-relational level, the suffixal material is directionally related to the lexical base and produces a stabilized feminine lexical and grammatical reorientation; this relation is classified through Δ (>&lt;), subject to the R
+<sub>0</sub>
+diagnostic established in Section 3.6.
+</p>
+</sec>
+<sec id="sec7dot2">
+<title>7.2. Cross-Framework Interpretation and Instability</title>
+<p>The following discussion presents comparative reconstructions based on the general theoretical commitments of Minimalism, Distributed Morphology, and Word-and-Paradigm morphology. It does not attribute a published framework-specific analysis of the Romanian relation urs → ursoaică to these approaches.</p>
+<p>
+Within a Minimalist perspective, the contrast may be related to a difference in syntactic feature structure and to the morphological realization of those features. This is a comparative characterization rather than a claim that Minimalist literature provides a specific published derivation of urs → ursoaică through Merge or another particular syntactic operation ([
+<xref ref-type="bibr" rid="B10">10</xref>
+]).
+</p>
+<p>
+Within Distributed Morphology, the relation may be described through the distinction between abstract morphosyntactic features and their post-syntactic realization by Vocabulary Insertion. Any treatment of the sequence -oaică as an inserted exponent or as a complex realization must likewise be understood as a comparative reconstruction, not as an attributed published analysis of this Romanian form ([
+<xref ref-type="bibr" rid="B26">26</xref>
+]; [
+<xref ref-type="bibr" rid="B21">21</xref>
+]).
+</p>
+<p>
+Within Word-and-Paradigm morphology, the relation may be described as a relation between lexemes and morphosyntactic or lexical values within a paradigm. This perspective does not require the analysis to derive the resulting form through the same type of internally ordered operation assumed by component-based approaches ([
+<xref ref-type="bibr" rid="B36">36</xref>
+]; [
+<xref ref-type="bibr" rid="B2">2</xref>
+]).
+</p>
+<p>These perspectives may assign different descriptive statuses to the same empirical relation, but their differences are not necessarily limited to the location of explanation. They may also involve different assumptions about the representation, realization, and organization of grammatical information. The comparison therefore does not establish that the empirical structure is independent of theoretical analysis. It identifies the need for a separate comparative description of the formally specified relation. Within the Δ architecture, that description distinguishes two representational levels: Δ (+) classifies the integration of the suffixal material at the executional level, whereas Δ (>&lt;) classifies the associated directional semantic and grammatical reorientation at the semantic- relational level.</p>
+</sec>
+<sec id="sec7dot3">
+<title>7.3. Formalization in the Δ Architecture</title>
+<p>The Romanian relation urs → ursoaică receives complementary classifications at two distinct representational levels. At the executional level, the suffixal material -oaică is integrated into the lexical base urs and is classified through Δ (+). At the semantic-relational level, that suffixal material is directionally related to the lexical base and produces an explicitly identified feminine lexical and grammatical reorientation; this relation is classified through Δ (>&lt;).</p>
+<p>At the executional level, the macrostructural relation is represented as: A + n = A′. Here, A designates urs, n designates the integrated suffixal material -oaică, and A′ designates ursoaică. The formula represents the integration of dependent material through Δ (+).</p>
+<p>
+At the microstructural level, the corresponding relation is represented as: 1C [(R
+<sub>0</sub>
++)] + c [(R
+<sub>0</sub>
+)+] = 2C [(R
+<sub>0</sub>
++)]. Here, 1C [(R
+<sub>0</sub>
++)] identifies the configuration associated with urs, c [(R
+<sub>0</sub>
+)+] identifies the suffixal dependent material -oaică, and 2C [(R
+<sub>0</sub>
++)] identifies the resulting configuration ursoaică. R
+<sub>0</sub>
+remains identifiable throughout the executional integration.
+</p>
+<p>At the semantic-relational level, the macrostructural relation is represented as: (n > A) = B. Here, n designates the dependent suffixal material -oaică, A designates urs, and B designates ursoaică. The formula records the directional relation of n to A and the resulting stabilized configuration.</p>
+<p>
+At the microstructural level, the corresponding relation is represented as: c [(R
+<sub>0</sub>
+)+] > C1 [(R
+<sub>0</sub>
++)] = C2 [(R
+<sub>0</sub>
++)]. Here, c [(R
+<sub>0</sub>
+)+] represents the suffixal component -oaică, C1 [(R
+<sub>0</sub>
++)] identifies the configuration associated with urs, and C2 [(R
+<sub>0</sub>
++)] identifies the resulting configuration ursoaică. The marker > specifies the directional relation of the suffixal component to the configuration relative to R
+<sub>0</sub>
+. It does not constitute an independent operator; Δ (>&lt;) remains the semantic-relational classification.
+</p>
+<p>The analysis is maintained only if the diagnostic in Section 3.6 permits the relational nucleus associated with urs to be retained. Any framework-specific explanation of feminine lexical or grammatical value remains distinct from this comparative description.</p>
+</sec>
+<sec id="sec7dot4">
+<title>7.4. Regime Stability and Theoretical Consequence</title>
+<p>
+The Δ architecture permits complementary classifications of a single relation when they apply at distinct representational levels and are stated in separate representations. Each classification must satisfy its own activation condition, and the analysis must meet the R
+<sub>0</sub>
+-continuity diagnostic in Section 3.6.
+</p>
+<p>The example remains illustrative: it neither establishes invariant classification across theoretical frameworks nor supports a universally applicable criterion. Broader empirical testing and independent analyses are needed to determine whether the distinction extends to other configurations.</p>
+</sec>
+</sec>
+<sec id="sec8">
+<title>8. Discussion and Theoretical Implications</title>
+<p>The Δ operatorial architecture provides a formal framework for comparing grammatical transformations by distinguishing the structural type of an intervention from the framework-specific mechanisms used to explain it. Minimalist, Distributed Morphology, Word-and-Paradigm, and Construction Grammar accounts may locate explanation in different components of grammar; the architecture neither replaces these accounts nor determines which is correct. Its narrower purpose is to classify structurally specified relations as oriented correspondence, integration, elimination, correlated replacement, semantic or grammatical reorientation, relational coupling, positional reorganization, or paradigmatic organization.</p>
+<p>
+This comparative function depends on the distinction between macrostructural and microstructural representation: macrostructural formulas record stabilized relations between configurations, while microstructural formulas specify R
+<sub>0</sub>
+and the dependent material affected. Thus, Δ (→) can record the oriented correspondence between casă and case without classifying their internal material change; that executional replacement of -ă by -e is classified separately as Δ (−/+). Similarly, Δ (+) classifies material integration, while Δ (>&lt;) may classify the resulting semantic-relational reorientation in a separate representation. In trust → distrust and urs → ursoaică, these classifications are complementary because they apply at distinct representational levels.
+</p>
+<p>
+The eight regimes form a proposed inventory, not an exhaustive typology. Uncertain identification of R
+<sub>0</sub>
+, multiple exponence, conversion, suppletion, syncretism, overabundance, and non-concatenative morphology may require revising an activation criterion, reconsidering the representational level, or modifying the inventory. The architecture’s specific contribution is a comparative vocabulary for structural interventions, coordinated macro-micro notation, and an explicit procedure for assigning regimes. Appendix B, Figure 5, “Summary of the Eight Operatorial Regimes,” presents the inventory and its macrostructural and microstructural representations.
+</p>
+</sec>
+<sec id="sec9">
+<title>9. Scope and Limitations</title>
+<p>The Δ operatorial architecture is proposed as a formal comparative framework for classifying transformational interventions. Its scope is therefore limited: it does not offer a complete account of how grammatical structures are generated or model cognitive processing, language acquisition, historical development, or the mechanisms through which speakers construct linguistic expressions. Those explanatory questions remain within the remit of generative, realizational, paradigmatic, phonological, and constructional frameworks. The architecture is neither a psychological entity nor an independently demonstrated universal principle; it applies only when a relation can be represented through the proposed macrostructural and microstructural notation. Because classification depends on the representational level selected and on identifying a regime’s defining condition, each level receives a single regime assignment. Complementary descriptions are possible only in separate representations at distinct levels.</p>
+<p>
+A further limitation concerns the identification of R
+<sub>0</sub>
+. The ordered diagnostic specifies when the relational nucleus should be retained or replaced, but applying it may be difficult when more than one candidate base configuration is plausible. The procedure is presented in Appendix B2, “Decision Procedure for Retaining or Replacing R
+<sub>0</sub>
+.” Since this study includes no independent coding or assessment of inter-analyst agreement, it does not claim that the diagnostic has been independently validated. Future research should develop a coding manual for the operatorial regimes and assess whether independent analysts assign the same regime when they apply the diagnostic to the same data.
+</p>
+<p>The attested dataset is illustrative and selective, so it does not establish typological coverage or cross-linguistic stability. Phenomena such as multiple exponence, conversion, extensive syncretism, overabundance, non-concatenative morphology, polysynthesis, and gradient alternations may require refinement of an activation criterion, reconsideration of the representational level, or revision of the inventory. Likewise, the threshold k ≥ 3 for Δ (±) is a formal convention for distinguishing a paradigmatic domain from an isolated transformation or binary alternation; it is not proposed as a universal threshold. Its conditions and exclusions are summarized in Appendix B5, “Summary of the Eight Operatorial Regimes.” The architecture remains open to revision if a clearly specified intervention cannot be classified under the stated criteria or requires two competing regime assignments at the same representational level.</p>
+</sec>
+<sec id="sec10">
+<title>10. Conclusion</title>
+<p>
+This paper has proposed the Δ operatorial architecture as a formal means of comparing grammatical transformations. It treats transformation as a structurally identifiable intervention and keeps its classification distinct from the mechanism a particular theory invokes to explain it. The general operator Δ organizes this comparative description: macrostructural formulas record stabilized relations between configurations, while microstructural formulas specify R
+<sub>0</sub>
+and the dependent components affected. The architecture thus allows different theoretical accounts to be compared without replacing them or deciding which is empirically correct.
+</p>
+<p>This formal approach does not require one fully specified formula that applies at both representational levels or to every relation. Each formula is selected for a particular relation and identifies its configurations, orientation, relevant material, or Δ regime. Generality resides in the operatorial architecture, its regimes, and the conditions for applying them—not in a universal formula. Formulas are not created ex nihilo; they are selected and specified by applying pre-established classificatory conditions.</p>
+<p>A limited comparison with mathematical formalization helps clarify this order of analysis. A general mathematical equation or formula normally precedes the assignment of values to its variables; in the Δ architecture, the structural relation is identified before its formal representation is selected. Since surface form alone is insufficient for structural classification, the analysis must establish the relation between configurations and determine the applicable regime. The comparison does not make Δ a mathematical model: the architecture describes structural relations formally but does not explain their cognitive, historical, or causal origins.</p>
+<p>
+The examples offer a preliminary illustration of the proposed criteria, not evidence of an exhaustive typology or universal classificatory stability. The proposal remains open to revision if an intervention cannot be classified under the stated conditions, R
+<sub>0</sub>
+cannot be identified consistently, or two competing regimes are required at the same representational level. Its broader applicability therefore requires further empirical testing and independent analysis.
+</p>
+<p>“A word becomes truly alive only when it can become something else without ceasing to be itself.”</p>
+<p>Ciocioc Ion Valentin</p>
+</sec>
+<sec id="sec11">
+<title>Appendix</title>
+<p>
+Appendix A presents detailed analyses of the eight Δ regimes, while Appendix B brings together the notation, R
+<sub>0</sub>
+diagnostic, regime-assignment criteria, comparative material, and visual illustrations. The complete supplementary appendices are available here:
+<ext-link ext-link-type="uri" xlink:href="https://drive.google.com/file/d/1DU3w9otQdVGprmidlNgmxNLDCZ-xjyav/view?usp=sharing">https://drive.google.com/file/d/1DU3w9otQdVGprmidlNgmxNLDCZ-xjyav/view?usp=sharing</ext-link>
+.
+</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="B1">
+<label>1.</label>
+<citation-alternatives>
+<mixed-citation publication-type="web">
+Abramson, J. (2021). Precalculus 2e.
+<italic>OpenStax</italic>
+. https://openstax.org/details/books/precalculus-2e
+</mixed-citation>
+<element-citation publication-type="web">
+<person-group person-group-type="author">
+<string-name>Abramson, J.</string-name>
+</person-group>
+<year>2021</year>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B2">
+<label>2.</label>
+<citation-alternatives>
+<mixed-citation publication-type="book">
+Blevins, J. P. (2016).
+<italic>Word and Paradigm Morphology</italic>
+. Oxford University Press. https://doi.org/10.1093/acprof:oso/9780199593545.001.0001
+<pub-id pub-id-type="doi">10.1093/acprof:oso/9780199593545.001.0001</pub-id>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/acprof:oso/9780199593545.001.0001">https://doi.org/10.1093/acprof:oso/9780199593545.001.0001</ext-link>
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>Blevins, J.</string-name>
+</person-group>
+<year>2016</year>
+<pub-id pub-id-type="doi">10.1093/acprof:oso/9780199593545.001.0001</pub-id>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B3">
+<label>3.</label>
+<citation-alternatives>
+<mixed-citation publication-type="other">
+Blevins, J., &amp; Garrett, A. (1998). The Origins of Consonant-Vowel Metathesis.
+<italic>Language, 74,</italic>
+508-556. https://doi.org/10.2307/417792
+<pub-id pub-id-type="doi">10.2307/417792</pub-id>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/417792">https://doi.org/10.2307/417792</ext-link>
+</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<string-name>Blevins, J.</string-name>
+<string-name>Garrett, A.</string-name>
+</person-group>
+<year>1998</year>
+<pub-id pub-id-type="doi">10.2307/417792</pub-id>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B4">
+<label>4.</label>
+<citation-alternatives>
+<mixed-citation publication-type="book">
+Booij, G. (2007).
+<italic>The Grammar of Words: An Introduction to Linguistic Morphology</italic>
+(2nd ed.). Oxford University Press.
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>Booij, G.</string-name>
+</person-group>
+<year>2007</year>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B5">
+<label>5.</label>
+<citation-alternatives>
+<mixed-citation publication-type="book">
+Bybee, J. (2010).
+<italic>Language, Usage and Cognition</italic>
+. Cambridge University Press. https://doi.org/10.1017/cbo9780511750526
+<pub-id pub-id-type="doi">10.1017/cbo9780511750526</pub-id>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/cbo9780511750526">https://doi.org/10.1017/cbo9780511750526</ext-link>
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>Bybee, J.</string-name>
+<string-name>Language, U</string-name>
+</person-group>
+<year>2010</year>
+<pub-id pub-id-type="doi">10.1017/cbo9780511750526</pub-id>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B6">
+<label>6.</label>
+<mixed-citation publication-type="web">
+Centre for the Greek Language (n.d.-a).
+<italic>Άντρ</italic>
+<italic>ας.</italic>
+<italic>Λεξικό</italic>
+<italic>της</italic>
+<italic>Κοινής</italic>
+<italic>Νεοελληνικής</italic>
+. https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%AC%CE%BD%CF%84%CF%81%CE%B1%CF%82
+</mixed-citation>
+</ref>
+<ref id="B7">
+<label>7.</label>
+<mixed-citation publication-type="web">
+Centre for the Greek Language (n.d.-b).
+<italic>Γράφω</italic>
+<italic>.</italic>
+<italic>Λεξικό</italic>
+<italic>της</italic>
+<italic>Κοινής</italic>
+<italic>Νεοελληνικής</italic>
+. https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/
+</mixed-citation>
+</ref>
+<ref id="B8">
+<label>8.</label>
+<citation-alternatives>
+<mixed-citation publication-type="other">
+Chomsky, N. (1957).
+<italic>Syntactic Structures</italic>
+. Mouton.
+</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<string-name>Chomsky, N.</string-name>
+</person-group>
+<year>1957</year>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B9">
+<label>9.</label>
+<citation-alternatives>
+<mixed-citation publication-type="book">
+Chomsky, N. (1965).
+<italic>Aspects of the Theory of Syntax</italic>
+. MIT Press.
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>Chomsky, N.</string-name>
+</person-group>
+<year>1965</year>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B10">
+<label>10.</label>
+<citation-alternatives>
+<mixed-citation publication-type="book">
+Chomsky, N. (1995).
+<italic>The Minimalist Program</italic>
+. MIT Press. https://mitpress.mit.edu/9780262531283/the-minimalist-program/
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>Chomsky, N.</string-name>
+</person-group>
+<year>1995</year>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B11">
+<label>11.</label>
+<citation-alternatives>
+<mixed-citation publication-type="journal">
+Ciocioc, I. V. (2025). The Metamorphosis Formula.
+<italic>Open</italic>
+<italic>Journal</italic>
+<italic>of</italic>
+<italic>Modern</italic>
+<italic>Linguistics,</italic>
+<italic>15,</italic>
+281-319. https://doi.org/10.4236/ojml.2025.152017
+<pub-id pub-id-type="doi">10.4236/ojml.2025.152017</pub-id>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4236/ojml.2025.152017">https://doi.org/10.4236/ojml.2025.152017</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>Ciocioc, I.</string-name>
+</person-group>
+<year>2025</year>
+<pub-id pub-id-type="doi">10.4236/ojml.2025.152017</pub-id>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B12">
+<label>12.</label>
+<citation-alternatives>
+<mixed-citation publication-type="book">
+Corbett, G. G. (2012).
+<italic>Features</italic>
+. Cambridge University Press. https://doi.org/10.1017/cbo9781139206983
+<pub-id pub-id-type="doi">10.1017/cbo9781139206983</pub-id>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/cbo9781139206983">https://doi.org/10.1017/cbo9781139206983</ext-link>
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>Corbett, G.</string-name>
+</person-group>
+<year>2012</year>
+<pub-id pub-id-type="doi">10.1017/cbo9781139206983</pub-id>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B13">
+<label>13.</label>
+<citation-alternatives>
+<mixed-citation publication-type="book">
+Croft, W. (2001).
+<italic>Radical Construction Grammar: Syntactic Theory in Typological Perspective.</italic>
+Oxford University Press. https://doi.org/10.1093/acprof:oso/9780198299554.001.0001
+<pub-id pub-id-type="doi">10.1093/acprof:oso/9780198299554.001.0001</pub-id>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/acprof:oso/9780198299554.001.0001">https://doi.org/10.1093/acprof:oso/9780198299554.001.0001</ext-link>
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>Croft, W.</string-name>
+</person-group>
+<year>2001</year>
+<pub-id pub-id-type="doi">10.1093/acprof:oso/9780198299554.001.0001</pub-id>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B14">
+<label>14.</label>
+<citation-alternatives>
+<mixed-citation publication-type="book">
+Crystal, D. (2008).
+<italic>A Dictionary of Linguistics and Phonetics</italic>
+(6th ed.). Blackwell Publishing. https://doi.org/10.1002/9781444302776
+<pub-id pub-id-type="doi">10.1002/9781444302776</pub-id>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/9781444302776">https://doi.org/10.1002/9781444302776</ext-link>
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>Crystal, D.</string-name>
+</person-group>
+<year>2008</year>
+<pub-id pub-id-type="doi">10.1002/9781444302776</pub-id>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B15">
+<label>15.</label>
+<mixed-citation publication-type="web">
+DEX Online (n.d.-a). Al.
+<italic>DEX Online</italic>
+. https://dexonline.ro/definitie/al
+</mixed-citation>
+</ref>
+<ref id="B16">
+<label>16.</label>
+<mixed-citation publication-type="web">
+DEX Online (n.d.-b). Casă.
+<italic>DEX Online</italic>
+. https://dexonline.ro/definitie/casă
+</mixed-citation>
+</ref>
+<ref id="B17">
+<label>17.</label>
+<mixed-citation publication-type="web">
+DEX Online (n.d.-c). La.
+<italic>DEX Online</italic>
+. https://dexonline.ro/intrare/la/305197/sinteza
+</mixed-citation>
+</ref>
+<ref id="B18">
+<label>18.</label>
+<mixed-citation publication-type="web">
+DEX Online (n.d.-d). Merge.
+<italic>DEX Online</italic>
+. https://dexonline.ro/definitie/merge
+</mixed-citation>
+</ref>
+<ref id="B19">
+<label>19.</label>
+<mixed-citation publication-type="web">
+DEX Online (n.d.-e). Ursoaică.
+<italic>DEX Online</italic>
+. https://dexonline.ro/definitie/ursoaică
+</mixed-citation>
+</ref>
+<ref id="B20">
+<label>20.</label>
+<mixed-citation publication-type="web">
+DEX Online (n.d.-f). Zi.
+<italic>DEX Online</italic>
+. https://dexonline.ro/definitie/zi
+</mixed-citation>
+</ref>
+<ref id="B21">
+<label>21.</label>
+<citation-alternatives>
+<mixed-citation publication-type="book">
+Embick, D. (2010).
+<italic>Localism versus Globalism in Morphology and Phonology</italic>
+. The MIT Press. https://doi.org/10.7551/mitpress/9780262014229.001.0001
+<pub-id pub-id-type="doi">10.7551/mitpress/9780262014229.001.0001</pub-id>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7551/mitpress/9780262014229.001.0001">https://doi.org/10.7551/mitpress/9780262014229.001.0001</ext-link>
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>Embick, D.</string-name>
+</person-group>
+<year>2010</year>
+<pub-id pub-id-type="doi">10.7551/mitpress/9780262014229.001.0001</pub-id>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B22">
+<label>22.</label>
+<citation-alternatives>
+<mixed-citation publication-type="other">
+Embick, D. (2015).
+<italic>The Morpheme: A Theoretical Introduction</italic>
+. De Gruyter Mouton.
+</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<string-name>Embick, D.</string-name>
+</person-group>
+<year>2015</year>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B23">
+<label>23.</label>
+<citation-alternatives>
+<mixed-citation publication-type="book">
+Embick, D., &amp; Noyer, R. (2007). Distributed Morphology and the Syntax/Morphology Interface. In G. Ramchand, &amp; C. Reiss (Eds.),
+<italic>The Oxford Handbook of Linguistic Interfaces</italic>
+(pp. 289-324). Oxford University Press.
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>Embick, D.</string-name>
+<string-name>Noyer, R.</string-name>
+</person-group>
+<year>2007</year>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B24">
+<label>24.</label>
+<citation-alternatives>
+<mixed-citation publication-type="book">
+Goldberg, A. E. (1995).
+<italic>Constructions: A Construction Grammar Approach to Argument Structure</italic>
+. University of Chicago Press.
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>Goldberg, A.</string-name>
+</person-group>
+<year>1995</year>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B25">
+<label>25.</label>
+<citation-alternatives>
+<mixed-citation publication-type="book">
+Goldberg, A. E. (2006).
+<italic>Constructions at Work: The Nature of Generalization in Language</italic>
+. Oxford University Press.
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>Goldberg, A.</string-name>
+</person-group>
+<year>2006</year>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B26">
+<label>26.</label>
+<citation-alternatives>
+<mixed-citation publication-type="book">
+Halle, M., &amp; Marantz, A. (1993). Distributed Morphology and the Pieces of Inflection. In K. Hale, &amp; S. J. Keyser (Eds.),
+<italic>The View from Building 20: Essays in Linguistics in Honor of Sylvain Bromberger</italic>
+(pp. 111-176). MIT Press.
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>Halle, M.</string-name>
+<string-name>Marantz, A.</string-name>
+</person-group>
+<year>1993</year>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B27">
+<label>27.</label>
+<citation-alternatives>
+<mixed-citation publication-type="other">
+Halle, M., &amp; Marantz, A. (1994). Some Key Features of Distributed Morphology. In A. Carnie, H. Harley, &amp; T. Bures (Eds.),
+<italic>Papers on Phonology and Morphology (MIT Working Papers in Linguistics, Vol. 21</italic>
+<italic>)</italic>
+(pp. 275-288). MIT Working Papers in Linguistics.
+</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<string-name>Halle, M.</string-name>
+<string-name>Marantz, A.</string-name>
+<string-name>Carnie, H.</string-name>
+<string-name>Linguistics, V</string-name>
+</person-group>
+<year>1994</year>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B28">
+<label>28.</label>
+<citation-alternatives>
+<mixed-citation publication-type="other">
+Haspelmath, M. (2010). Comparative Concepts and Descriptive Categories in Crosslinguistic Studies.
+<italic>Language,</italic>
+<italic>86,</italic>
+663-687. https://doi.org/10.1353/lan.2010.0021
+<pub-id pub-id-type="doi">10.1353/lan.2010.0021</pub-id>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1353/lan.2010.0021">https://doi.org/10.1353/lan.2010.0021</ext-link>
+</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<string-name>Haspelmath, M.</string-name>
+</person-group>
+<year>2010</year>
+<pub-id pub-id-type="doi">10.1353/lan.2010.0021</pub-id>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B29">
+<label>29.</label>
+<mixed-citation publication-type="web">
+Institute for Modern Greek Studies (n.d.).
+<italic>Γελάδ</italic>
+<italic>α.Λεξικό</italic>
+<italic>της</italic>
+<italic>Κοινής</italic>
+<italic>Νεοελληνικής</italic>
+. Aristotle University of Thessaloniki. https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/
+</mixed-citation>
+</ref>
+<ref id="B30">
+<label>30.</label>
+<citation-alternatives>
+<mixed-citation publication-type="book">
+Matthews, P. H. (1991).
+<italic>Morphology</italic>
+(2nd ed.). Cambridge University Press.
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>Matthews, P.</string-name>
+</person-group>
+<year>1991</year>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B31">
+<label>31.</label>
+<mixed-citation publication-type="web">
+Merriam-Webster (n.d.-a). Cat.
+<italic>Merriam-Webster.com</italic>
+<italic>dictionary</italic>
+. https://www.merriam-webster.com/dictionary/cat
+</mixed-citation>
+</ref>
+<ref id="B32">
+<label>32.</label>
+<mixed-citation publication-type="web">
+Merriam-Webster (n.d.-b). Distrust.
+<italic>Merriam-Webster.com dictionary</italic>
+. https://www.merriam-webster.com/dictionary/distrust
+</mixed-citation>
+</ref>
+<ref id="B33">
+<label>33.</label>
+<citation-alternatives>
+<mixed-citation publication-type="book">
+Newmeyer, F. J. (2005).
+<italic>Possible and Probable Languages: A Generative Perspective on Linguistic Typology</italic>
+. Oxford University Press. https://doi.org/10.1093/acprof:oso/9780199274338.001.0001
+<pub-id pub-id-type="doi">10.1093/acprof:oso/9780199274338.001.0001</pub-id>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/acprof:oso/9780199274338.001.0001">https://doi.org/10.1093/acprof:oso/9780199274338.001.0001</ext-link>
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>Newmeyer, F.</string-name>
+</person-group>
+<year>2005</year>
+<pub-id pub-id-type="doi">10.1093/acprof:oso/9780199274338.001.0001</pub-id>
+</element-citation>
+</citation-alternatives>
+</ref>
+<ref id="B34">
+<label>34.</label>
+<mixed-citation publication-type="web">
+Oxford English Dictionary (n.d.-a). Ask, v.
+<italic>OED</italic>
+. https://www.oed.com/dictionary/ask_v
+</mixed-citation>
+</ref>
+<ref id="B35">
+<label>35.</label>
+<mixed-citation publication-type="web">
+Oxford English Dictionary (n.d.-b). Go, v.
+<italic>OED</italic>
+. https://www.oed.com/dictionary/go_v
+</mixed-citation>
+</ref>
+<ref id="B36">
+<label>36.</label>
+<citation-alternatives>
+<mixed-citation publication-type="book">
+Stump, G. T. (2001).
+<italic>Inflectional Morphology: A Theory of Paradigm Structure</italic>
+. Cambridge University Press. https://doi.org/10.1017/CBO9780511486333
+<pub-id pub-id-type="doi">10.1017/CBO9780511486333</pub-id>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/CBO9780511486333">https://doi.org/10.1017/CBO9780511486333</ext-link>
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>Stump, G.</string-name>
+</person-group>
+<year>2001</year>
+<pub-id pub-id-type="doi">10.1017/CBO9780511486333</pub-id>
+</element-citation>
+</citation-alternatives>
+</ref>
+</ref-list>
+</back>
+</article>
